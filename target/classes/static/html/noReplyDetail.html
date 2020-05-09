@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>详情</title>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"> </script>
+    <script type="text/javascript" src="../js/public.js"></script>
+    <link href="../css/common.css" rel="stylesheet" />
+    <link href="../css/public.css" rel="stylesheet" />
+
+</head>
+<script>
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null)return unescape(r[2]);
+        return null;
+    }
+    $(function(){
+        var index = GetQueryString("index");
+        var chargeRuleLogs = JSON.parse(sessionStorage.getItem("rowsData"))
+        var stuCrtime=chargeRuleLogs[index].stuCrtime
+        var submitDate = stuCrtime.split(" ")
+        $("#title").text(chargeRuleLogs[index].title)
+        $("#submitDate").text(submitDate[0])
+        $("#stuContent").text(chargeRuleLogs[index].stuContent)
+    })
+</script>
+
+
+<body>
+<div class="main centerWidth">
+    <div class="xl-main">
+        <div class="zwxl-content">
+            <div class="zwxl-title">
+                <p id="title" class="tit"></p>
+                <div class="zwxl-bar"><span class="tit" >提交日期：</span><span class="con" id="submitDate"></span>
+                </div>
+            </div>
+            <div class="zwxl-article">
+                <h3>提交内容:</h3><br>
+                <p id="stuContent"></p>
+                <h3>暂未回复</h3><br>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

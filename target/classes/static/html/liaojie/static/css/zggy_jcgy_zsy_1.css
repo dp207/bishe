@@ -1,0 +1,108 @@
+﻿@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 1025px){
+.div1 {
+    left: 0%;
+     }
+#jcgy_yinpinbf {
+    top: 80%;
+    left: 2.5%;
+}
+.div21 {
+    width: 100%;
+}
+.div211 {
+    left: 26%;
+}
+.div212 {
+    left: 34%;
+}
+.div22 {
+    width: 100%;
+}
+.div221 {
+   left: 26%;
+}
+.div222 {
+    left: 26.5%;
+}
+.main_111 {
+    left: 20%;
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+}
+.div23 {
+    width: 100%;
+}
+.div231 {
+    left: 23%;
+}
+.div232 {
+    left: 27%;
+}
+.div24 {
+    width: 100%;
+}
+.div241 {
+    left: 26%;
+}
+.div2421 {
+    margin-right: 50px;
+}
+.div2423 {
+    float: left;
+    margin-left: 20px;
+	overflow: hidden;
+	margin-top: 50px;
+	transform: scale(1.18);
+	-webkit-transform: scale(1.18);
+}
+.div25 {
+    width: 100%;
+}
+.div251 {
+    left: 26%;
+}
+.div25 ul.div25_ul1_on {
+    left: 17%;
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+}
+.div252 {
+    left: 20%;
+}
+.div253 {
+    left: 46%;
+}
+.div26 {
+    width: 100%;
+}
+.div261 {
+    left: 26%;
+}
+.div262 {
+    left: 18%;
+}
+}
+	
+@media screen and (max-width: 769px){
+.div231 {
+    left: 22%;
+}
+}
+@media screen and (max-width: 420px){
+.main_111 {
+    left: 20.5%;
+}	
+.div2421 {
+    margin-right: 50px;
+}
+}	
+	
+@media screen and (max-width: 376px){
+    
+}
+
+@media screen and (max-width: 321px){
+	
+}

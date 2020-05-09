@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="0">
+    <title>测控门户网站</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-index.css" rel="stylesheet">
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--font-awesome 核心我CSS 文件-->
+    <link href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- 在bootstrap.min.js 之前引入 -->
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <!--jquery.validate-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/common.js"> </script>
+    <script type="text/javascript" src="js/jsjquery-ui-1.10.3.min.js"></script>
+    <script src="js/mjy.js"></script>
+    <script src="js/js.js"></script>
+    <script src="https://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+    <script src="https://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script src="https://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+    <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<!--    <script type="text/javascript "src="js/count.js"></script>-->
+<!--    <script type="text/javascript "src="js/submit.js"></script>-->
+    <script type="text/javascript "src="js/login.js"></script>
+
+    <style type="text/css">
+        /*body{background: url(images/mz-img2.png) no-repeat;background-size:cover;font-size: 16px;}*/
+        .form{background: rgba(255,255,255,0.2);width:400px;margin:100px auto;}
+        #login_form{display: block;}
+        #register_form{display: none;}
+        .fa{display: inline-block;top: 34px;left: -97px;position: relative;color: #ccc;}
+        input[type="text"],input[type="password"]{padding-left:26px;}
+        .checkbox{padding-left:21px;}
+        .form label.error {
+            display: inline-block;
+            max-width: 100%;
+            margin-bottom: 5px;
+            font-weight: 700;
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="box" id="fullpage">
+    <div class=" section section1 active">
+        <div class="xhy-hide" >
+            <div class="xhy-box centerWidth">
+                <div class="xhy-h">
+                    <div class="xhy-ht clearfix underlines">
+                        <div class="xhy-htr rt">
+                            <div class="xhy-htr1"><a class="aa1" href="javascritp:;">微博 <img src="images/m3-img15.png"></a><a class="aa2" href="javascritp:;">微信 <img src="images/m3-img14.png"></a></div>
+                        </div>
+                    </div>
+                    <div class="xhy-hb">
+                        <div style="height: 375px;margin-top: -60px" class="container">
+                            <div class="form row">
+                                <form class="form-horizontal col-sm-offset-3 col-md-offset-3" id="login_form">
+                                    <h3 class="form-title" style="margin-left: -96px">用户登录</h3>
+                                    <div class="col-sm-9 col-md-9" style="margin-left: -30px">
+                                        <div class="form-group">
+                                            <i class="fa fa-user fa-lg"></i>
+                                            <input class="form-control required" type="text" placeholder="phone" name="phone" autofocus="autofocus" maxlength="20"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <i class="fa fa-lock fa-lg"></i>
+                                            <input class="form-control required" type="password" placeholder="Password" name="password" maxlength="8" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="checkbox">
+                                                <input type="checkbox" name="remember" value="1"/> 记住密码
+                                            </label>
+                                            <hr />
+                                            <a href="javascript:;" id="register_btn" class="">创建用户</a>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" class="btn btn-success pull-right" value="Login " onclick="login()" />
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form row" style="margin-top: -100px">
+                                <form class="form-horizontal col-sm-offset-3 col-md-offset-3" id="register_form">
+                                    <h3 class="form-title" style="margin-left: -96px">用户注册</h3>
+                                    <div class="col-sm-9 col-md-9" style="margin-left: -30px">
+                                        <div class="form-group" style="margin-top: -12px">
+                                            <i class="fa fa-user fa-lg"></i>
+                                            <input class="form-control required" type="text" placeholder="Username" name="username" autofocus="autofocus"/>
+                                        </div>
+                                        <div class="form-group" style="margin-top: -12px">
+                                            <i class="fa fa-lock fa-lg"></i>
+                                            <input class="form-control required" type="password" placeholder="Password" id="register_password" name="password" hidden/>
+                                        </div>
+                                        <div class="form-group" style="margin-top: -12px">
+                                            <i class="fa fa-check fa-lg"></i>
+                                            <input class="form-control required" type="password" placeholder="Re-type Your Password" name="rpassword"/>
+                                        </div>
+                                        <div class="form-group" style="margin-top: -12px">
+                                            <i class="fa fa-envelope fa-lg"></i>
+                                            <input class="form-control eamil" type="text" placeholder="phone" name="phone"/>
+                                        </div>
+                                        <div class="form-group" style="margin-top: -12px">
+                                            <input style="width: 18px;height: 18px;float: left" type="radio"  name="role" value="1"/><span style="float: left;color: #985f0d">教师</span>
+                                            <input style="width: 18px;height: 18px" type="radio"   name="role" value="0"/><span style="color: #985f0d">学生</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" class="btn btn-success pull-right" value="Sign Up " onclick="register()"/>
+                                            <input type="submit" class="btn btn-info pull-left" id="back_btn" value="Back"/>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="xhy-c"><a class="ba0 fadeInLeft1 animated cur" href="javascript:;">首页</a><a class="ba1 fadeInLeft1 animated" href="/html/liaojie/cekong.html" target="_self">了解测控</a><a class="ba2 fadeInOpacity animated1" href="/html/stuAction.html" target="_self">互动交流</a><a class="ba3 fadeInRight1 animated" href="javascript:;">师资力量</a>
+                    <a class="ba4 fadeInRight1 animated" href="javascript:;">培养方案</a></div>
+            </div>
+            <div class="xhy-f">
+                <div class="footer">
+                    <div class="footer-centered">
+                        <div class="footer-left">
+                            <div class="footer-zt f-as underlines"><a href="javascript:;">网站地图</a> <span>|</span> <a href="javascript:;">版权申明</a> <span>|</span><a href="javascript:;">联系我们</a> </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section index-page2">
+        <!-- 头部 -->
+        <div class="header">
+            <div class="header-centered" style="margin-top: 0px">
+                <img src="images/logo.png" class="header-logo">
+                <div class="header-right">
+                    <img class="header-right-l-hide" src="images/index-h1.png">
+                    <div class="header-right-left">
+                        <div class="header-right-center" style="width: 150%">
+                            <a class="active">首页</a>
+                            |
+                            <a href="/html/liaojie/cekong.html" target="_blank">了解测控</a>
+                            |
+                            <a href="/html/stuAction.html">互动交流</a>
+                            |
+                            <a>师资力量</a>
+                            |
+                            <a>培养方案</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="centerWidth"style="height: 100%" >
+            <div class="index-wrap2 clearfix">
+                <div class="index-wrap1-col1 lf">
+                    <span style="font-size: 30px;margin-left: 25%">校园简介</span>
+                    <p style="font-size: 20px">&#8195; 抗战烽火淬炼，兵工血脉浸润。重庆理工大学是重庆市重点建设高校，是西南地区唯一一所具有兵工背景的普通高等本科院校。</p>
+                    <p style="font-size: 20px">&#8195; 学校溯源于1940年创办的国民政府兵工署第11技工学校（对外化名“士继公学”）。1950年后，学校先后更名为21兵工厂工业职业学校、西南军政委员会西南工业部工业学校、重庆机械工业学校、第二机械工业部西南第一工业学校、重庆工业学校、重庆机械制造工业学校、重庆第一机械制造工业学校。1957年，昆明仪器制造工业学校金属切削专业并入。1960年，升办为重庆工业专科学校。1965年，升格为重庆工业学院。1985年，经国家教委批准改建为重庆工业管理学院。1999年，由中国兵器工业总公司划转重庆市管理，实行中央与地方共建、以地方管理为主的管理体制，同年更名为重庆工学院。2001年，重庆市经济管理干部学院整体并入。2009年，经教育部批准更名为重庆理工大学。</p>
+                    <p style="font-size: 20px">&#8195; 回眸过去，筚路蓝缕；放眼未来，玉汝于成。首任校长李承干先生“值得吾人尽力而为者，唯有教育”的办学情怀，著名文学家郭沫若先生作词的校歌中“工以建国、技以利工”的殷切期翼，学校积淀了“自强不息，求实创新”的大学精神。目前，“重理工人”正秉承“明德笃行，自强日新”的校训，锐意进取，开拓创新，努力将学校全面建设成为特色鲜明、西部一流的高水平应用研究型大学。</p>
+                </div>
+                <div class="main_tab rt">
+                <img src="images/in-imgM1.png" style="height: 100%">
+                </div>
+            </div>
+
+            </div>
+        <!-- 右侧浮动 -->
+        <div class="index-float">
+            <a href=""><img src="./images/qj-wb.png">
+                <p>微博</p><img class="img" src="./images/m3-img14.png">
+            </a>
+            <a href=""><img src="./images/qj-wx.png">
+                <p>微信</p><img class="img" src="./images/m3-img15.png">
+            </a>
+
+        </div>
+
+        <!-- 底部 -->
+        <div class="footer">
+            <div class="footer-centered">
+                <div class="footer-left">
+                    <div class="footer-zt f-as underlines"><a href="javascript:;">网站地图</a> <span>|</span> <a href="javascript:;">版权申明</a> <span>|</span><a href="javascript:;">联系我们</a> </div>
+                    <div class="footer-zt"></div>
+                </div>
+                <div class="footer-right">
+                    <a href="javascript:;"> <img src="images/index2.png" /></a>
+                    <a href="javascript:;"> <img src="images/index1.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

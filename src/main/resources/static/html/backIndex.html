@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>backIndex</title>
+    <script src="../js/jquery.min.js"></script>
+</head>
+<script>
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+        var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+
+        if (r != null)
+            return decodeURIComponent(r[2]);
+        else
+            return null; //返回参数值
+    }
+
+    $(function(){
+        var msg = getUrlParam("msg");
+        $("#msgInfo").text(msg);
+    })
+</script>
+<body>
+<h2 id="msgInfo" style="color: black"></h2>
+<a href="http://localhost:8085/index">返回登录</a>
+</body>
+</html>

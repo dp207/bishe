@@ -1,0 +1,15 @@
+server:
+  port: 8085
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://120.77.221.159/biShe?seUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: Lan@8888
+    initialization-mode: always
+    schema:
+      classpath: view.sql
+  redis:
+    host: 120.77.221.159
+    password: Lan@8888

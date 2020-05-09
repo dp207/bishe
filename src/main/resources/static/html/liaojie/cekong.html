@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>了解测控</title>
+    <link rel="stylesheet" type="text/css" href="static/css/fullpage_1.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/jcgy_style_1.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/zggy_jcgy_zsy_1.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/guiyang_jingcai_zsy_1.css" />
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/jquery.min_1.js"></script>
+    <script src="static/js/jquery.fullpage.min_1.js"></script>
+    <script src="static/js/jquery.superslide.2.1.1_1.js"></script>
+    <script src="static/js/jquery.timelinr-0.9.4_1.js"></script>
+    <script src="static/js/jcgy_main_1.js"></script>
+</head>
+<script>
+    $("header .topbar .w1110").append('<a href="javascript:playPause()" id="music_btn" title="点击暂停" class="fr"><img src="http://www.chengdu.gov.cn/chengdu/xhtml/images/playing.gif" alt="" id="music_img"><audio src="http://www.chengdu.gov.cn/chengdu/xhtml/images/piano-chengdu.mp3" id="music" autoplay="autoplay" loop="loop" preload="auto" hidden="hidden"></audio></a>');
+    function playPause() {
+        var music = document.getElementById('music');
+        var music_img = document.getElementById('music_img');
+        if (music.paused){
+            music.play();
+            music_img.src = 'http://www.chengdu.gov.cn/chengdu/xhtml/images/playing.gif';
+            $("#music_btn").attr('title','点击暂停');
+        }else{
+            music.pause();
+            music_img.src = 'http://www.chengdu.gov.cn/chengdu/xhtml/images/pausing.png';
+            $("#music_btn").attr('title','点击播放');
+        }
+    }
+    function getIndex() {
+        var item = sessionStorage.getItem('index');
+        var a = document.createElement('a');
+        if (item=="null"||item==null){
+            a.setAttribute("href", '../../index');
+        }else {
+            a.setAttribute("href", '../../html/'+item);}
+        document.body.appendChild(a);
+        a.click();
+
+    }
+</script>
+<body>
+<!--页面菜单-->
+<div class="div1">
+    <img src="static/picture/gy_index_logo_1.png" style="width:200px;position:absolute; top:70px;right:280px;" />
+   <a  class="div1_fhsy" href="javascript:getIndex()" ><< 返回首页</a>
+    <div class="div11">
+        <!--beginblock id=首页跳转 -->
+        <div class="div11_css3"> <img src="static/picture/jcgy_logo_bg_1.png" /> <a href="javascript:void(0);">了解测控</a> </div>
+        <!--endblock -->
+    </div>
+    <ul id="menu">
+        <li data-menuanchor="page1" class="active"><a href="#page1">专业介绍</a></li>
+        <li data-menuanchor="page2"><a href="#page2">就业方向</a></li>
+        <li data-menuanchor="page3"><a href="#page3">主要环节</a></li>
+        <li data-menuanchor="page4"><a href="#page4">技术发展</a></li>
+        <li data-menuanchor="page5"><a href="#page5">目前发展</a></li>
+        <li data-menuanchor="page6"><a href="#page6">未来趋势</a></li>
+    </ul>
+    <div class="div1_bg"></div>
+</div>
+<!--音频播放-->
+<div id="jcgy_yinpinbf">
+    <a href="javascript:playPause()" id="music_btn" title="点击播放" class="fr" style="margin-left: 30px">
+        <img src="http://www.chengdu.gov.cn/chengdu/xhtml/images/pausing.png" alt="" id="music_img">
+        <audio src="http://www.chengdu.gov.cn/chengdu/xhtml/images/piano-chengdu.mp3" id="music" autoplay="autoplay" loop="loop" preload="auto" hidden="hidden"></audio></a>
+
+</div>
+
+<script>
+    $(document).ready(function(){
+        if($(window).width()<1025){
+            $("#jcgy_yinpinbf").remove();
+        }
+    })
+</script>
+<!--分页开始-->
+<div id="dowebok" class="div2">
+    <div class="section">
+        <!--第一页背景-->
+        <div class="div22_bg"></div>
+        <!--贵阳概况主体部分-->
+        <div class="div22">
+            <div class="div221"> <span class="div211_s1">专业介绍</span><br />
+                <span class="div211_s2">ZHUAN YE JIE SHAO</span> </div>
+
+            <style>
+                .div222 li .a1,.div222 li .a2,.div222 li .a3{
+                    display:none;
+                    width:300px;
+                    height:300px;
+                    position:absolute;
+                    left:200px;
+                    z-index:6;
+                }
+            </style>
+            <!--中间栏目切换部分-->
+            <div class="div222">
+              <h4>&#8195; &emsp;测控技术及仪器专业是我国仪器仪表行业唯一的本科专业。一级学科为仪器科学与技术；二级学科为精密仪器及机械、测试计量技术及仪器。属于高新技术密集型综合学科。测控技术及仪器是1998年教育部将10个本科专业合并而来（精密仪器、光学技术与光电仪器、检测技术及仪器仪表、电子仪器及测量技术、几何量计量测试、热工计量测试、力学计量测试、无线电计量测试、检测技术与精密仪器、测控技术与仪器）。</h4>
+              <h4>&#8195; &emsp;主要课程：精密机械与仪器设计、精密机械制造工程、模拟电子技术基础、数字电子技术基础、微型计算机原理与应用、控制工程基础、信号分析与处理、精密测控与系统、传感器技术、检测技术、工程光学等。</h4>
+                <h4>&#8195; &emsp;专业方向一以机械—电子—光学—仪器—计算机技术一体化为特色，以传感器技术、信息获取与处理技术、自动化精密机械以及智能仪器仪表为主要研究对象。本方向旨在培养基础理论扎实、实践能力强、知识面广，外语综合能力和计算机应用能力较强，人文社会科学综合素质较高，具有开拓创新意识，能够从事测控仪器、信息技术以及测试计量技术等方面的研究开发、设计制造和运行管理方面的复合型高级工程技术人才。</h4>
+                <h4>&#8195; &emsp;专业方向二以集电子技术、先进控制理论、计算机控制技术、自动检测技术、光电技术以及网络技术于一体为特色，以生产过程的机电装备运行状态及其信息为研究对象。本方向旨在培养基础理论扎实、实践能力强、知识面广，外语综合能力和计算机应用能力较强，人文社会科学综合素质较高，具有开拓创新意识，能够从事工业过程控制理论与装备、计算机辅助测试系统、信息处理与状态识别等领域的研究开发、设计制造和运行管理的复合型高级工程技术人才。</h4>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <!--第二页背景-->
+        <div class="div24_bg"></div>
+        <!--主体内容开始-->
+        <div class="div24">
+            <div class="div241"> <span class="div211_s1">就业方向</span><br />
+                <span class="div211_s2">JIU YE FANG XIANG</span> </div>
+            <!--中间展示区域-->
+            <div class="div242">
+              <h4>&#8195; &emsp;适合从事仪器与系统的设计制造、精密机械设计、测量与控制领域、测控仪器、计算机辅助测试、信息处理以及工业过程控制等领域研究、开发、设计和制造的高级工程技术领域。</h4>
+              <h4>&#8195; &emsp;本专业招收理工类学生，学制4年。 </h4>
+                <h4 >&#8195; &emsp;专业就业方向介绍：</h4>
+                <h4 style="font-size: 18px">就业方向一</h4>
+                <h4>&#8195; &emsp;精密机械设计制造、仪器与系统的设计制造。</h4>
+                <h4 style="font-size: 18px">就业方向二</h4>
+                <h4 >&#8195; &emsp;测试计量技术及仪器。</h4>
+                <h4 style="font-size: 18px">就业方向三</h4>
+                <h4 >&#8195; &emsp;工业自动化控制及过程控制。</h4>
+                <h4 style="font-size: 18px">就业方向四</h4>
+                <h4 >&#8195; &emsp;检测技术与自动化装置。</h4>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <!--第三页背景-->
+        <div class="div25_bg"></div>
+        <!--主体内容开始-->
+        <div class="div25">
+            <!--标题-->
+            <div class="div251"> <span class="div211_s1">主要环节</span><br />
+                <span class="div211_s2">ZHU YAO HUAN JIE</span> </div>
+
+            <!--支柱产业-->
+            <div class="div222 div222_on" style="margin-top: -30px"><!--beginblock id=支柱产业 -->
+                <h2 style="font-size: 18px">采集</h2>
+                <h4>&#8195; &emsp;在信号采集环节，主要是采集对象发出的各种信号，再将这种信号转换成电信号，以便于后续的处理。对象发出的信号大多数是通过传感器来采集的，包括物理信号（如温度、流量、压力等）和化学信号（如湿度、气味等）两大类，当然还包括不能归为这两类的一些信号，如可靠性、价格等。而开关量信号（带有数字信号的特征）则主要是靠带有单片机电路的仪器，如无纸记录仪，进行采集。此外，图像信号自然是由摄像装置来进行采集。</h4>
+                <h2 style="font-size: 18px">整理</h2>
+                <h4>&#8195; &emsp;在信号的整理阶段，主要是对采集到的电信号进行平整、滤波、模数转换等，转换成便于处理的数字信号。上述三种信号类型在整理阶段的内容有所不同，比如对传感器传来的信号主要是进行信号放大、平整、滤波和模数转换的过程；而对于开关量信号通过无纸记录仪的采集之后一般都能够转换成所需要的数字信号以待输出到下一个处理环节；对于图像信号，经采集之后主要是用于显示，若还需对图像进行处理，再显示，或者发出控制信号，那么也必须将图像信号转换成数字信号，进行处理，这就是一个复杂的问题。</h4>
+                <h2 style="font-size: 18px">处理</h2>
+                <h4>&#8195; &emsp;在信号的处理阶段，主要是对数字信号进行处理以便显示，或者发出控制信号。我们通过显示出来的信号来判断自动化系统上对象的运转是否正常，如果信号显示不正常，就需要对信号进行计算与处理，得到控制信号发送给对象，使对象调整运转的状态以复归正常。</h4>
+                <h2 style="font-size: 18px">显示控制</h2>
+                <h4>&#8195; &emsp;在显示与控制环节，显示主要是指将数字信号通过便于我们观察的形式显示出来以便我们进行判断，控制主要是指将控制信号传送给并作用于对象的过程。上面的四个环节就构成了整个测控的过程，如果包括控制的过程，则刚好形成了一个闭环，即信号从对象开始，经过采集、整理、处理，最后又将控制信号作用于对象的闭环。
+                </h4>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="section">
+        <!--第四页背景-->
+        <div class="div21_bg"></div>
+        <div class="div21">
+            <!--贵阳投资主题-->
+            <div class="div211"> <span class="div211_s1">技术发展</span><br />
+                <span class="div211_s2">JI SHU FA ZHAN</span> </div>
+            <!--中间主体切换部分-->
+            <div class="div212" style="width: 60%;margin-left: -100px">
+                <h4>&#8195; &emsp;自从迅猛发展的计算机技术及微电子技术渗透到测控和仪器仪表技术领域，便使该领域的面貌不断更新。相继出现的智能仪器、总线仪器和虚拟仪器等微机化仪器，都无一例外地利用计算机的软件和硬件优势，从而既增加了测量功能，又提高了技术性能。由于信号被采集变换成数字形式后，更多的分析和处理工作都由计算机来完成，故很自然使人们不再去关注仪器与计算机之间的界限。近年来，新型微处理器的速度不断提高，采用流水线、RISC结构和cachE等先进技术，又极大提高了计算机的数值处理能力和速度。在数据采集方面，数据采集卡、仪器放大器、数字信号处理芯片等技术的不断升级和更新，也有效地加快了数据采集的速率和效率。与计算机技术紧密结合，已是当今仪器与测控技术发展的主潮流。对微机化仪器作一具体分析后，不难见，配以相应软件和硬件的计算机将能够完成许多仪器、仪表的功能，实质上相当于一台多功能的通用测量仪器。这样的现代仪器设备的功能已不再由按钮和开关的数量来限定，而是取决于其中存储器内装有软件的多少。从这个意义上可认为，计算机与现代仪器设备日渐趋同，两者间已表现出全局意义上的相通性。据此，有人提出了“计算机就是仪器”/软件就是仪器”的概念。</h4>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <!--第五页背景-->
+        <div class="div26_bg"></div>
+        <!--主体内容开始-->
+        <div class="div26">
+            <!--标题-->
+            <div class="div261"> <span class="div211_s1">目前发展</span><br />
+                <span class="div211_s2">MU QIAN FA ZHAN</span> </div>
+            <div class="div262" style="margin-top: 120px">
+                <h4>&#8195; &emsp;(1)以自然基准溯源和传递，同时在不同量程实现国际比对。如果自己没有能力比对就要依靠其它国家。</h4><br>
+                <h4>&#8195; &emsp;(2)高精度。目前半导体工艺的典型线宽为0.25μm，并正向0.18μm过渡，2009年的预测线宽是0.07μm。如果定位要求占线宽的1/3，那么就要求10nm量级的精度，而且晶片尺寸还在增大，达到300mm。这就意味着测量定位系统的精度要优于3×10的-8次方，相应的激光稳频精度应该是10的-9次方数量级。</h4>
+                <br><h4>&#8195; &emsp;(3)高速度。目前加工机械的速度已经提高到1m/sec以上，上世纪80年代以前开发研制的仪器已不适应市场的需求。例如惠普公司的干涉仪市场大部分被英国Renishaw所占领，其原因是后者的速度达到了1m/sec。</h4>
+                <br><h4>&#8195; &emsp;(4)高灵敏，高分辨，小型化。如将光谱仪集成到一块电路板上。</h4>
+                <br><h4>&#8195; &emsp;(5)标准化。通讯接口过去常用GPIB，RS232，目前有可能成为替代物的高性能标准是USB、IEEE1394和VXI。现在，技术领先者设法控制技术标准，参与标准制订是仪器开发的基础研究工作之一。</h4>
+            </div>
+        </div>
+
+    </div>
+    <div class="section">
+        <!--第六页背景-->
+        <div class="div23_bg"></div>
+        <div class="div23">
+            <div class="div231"> <span class="div231_s1">未来趋势</span><br />
+                <span class="div231_s2">WEI LAI QU SHI</span> </div>
+            <div class="div232" style="margin-left: -80px;margin-top: -50px">
+                <h4 STYLE="font-size: 18px">(1)配合数控设备的技术创新(如主轴速度，精度创成)</h4>
+                <h4>&#8195; &emsp;数控设备的主要误差来源可分为几何误差（共有21项）和热误差。对于重复出现的系统误差，可采用软件修正；对于随机误差较大的情况，要采用实时修正方法。对于热误差，一般要通过温度测量进行修正。中国机床行业市场萎缩同时又大量进口国外设备的原因之一就是因为这方面的技术没有得到推广应用。为此，需要高速多通道激光干涉仪：其测量速度达60m/min以上，采样速度达5000次/sec以上，以适应热误差和几何误差测量的需要。空气折射率实时测量应达到2×10的-7次方水平，其测量结果和长度测量结果可同步输入计算机。</h4>
+                <h4 STYLE="font-size: 18px">(2)运行和制造过程的监控和在线检测技术</h4>
+                <h4>&#8195; &emsp;综合运用图像、频谱、光谱、光纤以及其它光与物质相互作用原理的传感器具有非接触、高灵敏度、高柔性、应用范围广的优点。在这个领域综合创新的天地十分广阔，如振动、粗糙度、污染物、含水量、加工尺寸及相互位置等。</h4>
+                <h4 STYLE="font-size: 18px">(3)配合信息产业和生产科学的技术创新</h4>
+                <h4>&#8195; &emsp;为了在开放环境下求得生存空间，没有自主创新技术是没有出路的。因此应该根据有专利权、有技术含量、有市场等原则选择一些项目予以支持。根据当前发展现状，信息、生命医学、环保、农业等领域需要的产品应给予优先支持。如医学中介入治疗的精密仪器设备、电子工业中的超分辨光刻和清洁方法和机理研究等</h4>
+                <h4 STYLE="font-size: 18px">(4)计算机辅助测量理论</h4>
+                <h4>&#8195; &emsp;信号处理系统的标准化、模块化、兼容和集成。例如，目前多数采用ISA总线、IEEE488口，今后计算机可能取消ISA总线，用于笔记本电脑的USB接口将广泛应用。过去，中国生产的仪器满足于数字显示，没有数据交换接口，难以进入国际市场。国外生产的仪器普遍配备IEEE488(GPIB)口。RS232：目前有可能成为替代物的高性能标准是USB、IEEE1394和VXI。在此转折期为我们提供了机遇。目前虚拟仪器的工作频段在千赫数量级，对于干涉信号处理显得太低，可以采取联合互补的方法形成模块系列，同时降低成本，从总体上提高研发工作的效率。根据已有基础，发展特长，有利于克服重复研究。</h4>
+                </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>互动交流_重庆市忠县人民政府</title>
+
+
+    <link rel="stylesheet" type="text/css" href="static/css/common_1.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/main_1.css" />
+    <link href="static/css/style-index_1.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/css/style_1.css" />
+    <script type="text/javascript" src="static/js/jquery.min_1.js"></script>
+    <script type="text/javaScript" src="static/js/common_1.js"></script>
+    <script type="text/javascript" src="static/js/jquery.fullpage.min_1.js"></script>
+    <script src="static/js/mjy_1.js"></script>
+    <script type="text/javascript" src="static/js/js_1.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <!-- 头部 -->
+    <!--弹窗组件-->
+<!--    <link rel="stylesheet" href="static/css/xcconfirm_1.css">-->
+<!--    <script type="text/javascript" src="static/js/xcconfirm_1.js"></script>-->
+    <style>
+        .header-right-left .header-right-center a {width:100px;}
+        .header{background: #275293;}
+        .footer {background: #fff;}
+        .footer-zt {color: #333;}
+        .f-as a {color: #333;}
+        .footer-zt:nth-child(3) {color: #333;}
+    </style>
+    <div class="header">
+        <div class="header-centered">
+            <img src="static/picture/logo_1.png" class="header-logo" />
+            <div class="header-right">
+                <img class="header-right-l-hide" src="static/picture/index-h1_1.png" />
+                <div class="header-right-left" style="width:690px;margin-right:0px;">
+                    <div class="header-right-center">
+                        <a  class="active" href="http://www.zhongxian.gov.cn/" target='_blank'>首页</a>
+                        |
+                        <a href="http://www.zhongxian.gov.cn/zxfz/" target='_blank'>忠县发展</a>
+                        |
+                        <a href="http://www.zhongxian.gov.cn/zwgk_156/" target='_blank'>政务公开</a>
+                        |
+                        <a target="_blank" href="http://www.zhongxian.gov.cn/ykb_156/" target="_blank">渝快办</a>
+                        |
+                        <a href="http://www.zhongxian.gov.cn/hdjl_156/" target='_blank'>互动交流</a>
+                        |
+                        <a href="http://www.zhongxian.gov.cn/tzzx/" target='_blank'>投资忠县</a>
+                    </div>
+                </div>
+                <div class="header-search">
+                    <input type="text" id="textfield1" maxlength="50" onkeydown="if(event.keyCode==13){submitsearch();}" onfocus="if(this.value=='搜索'){this.value='';}" onblur="if(this.value==''){this.value='搜索';}" placeholder="搜索" />
+                    <img onclick="submitsearch1()" src="static/picture/search_1.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    <script>-->
+<!--        function submitsearch1(){-->
+<!--            var result = $("#textfield1").val();-->
+<!--            result = $.trim(result);-->
+<!--            var reg = /[`~!@#$%^&*_+<>{}\/'[\]]/im;-->
+<!--            if (reg.test(result)) {-->
+<!--                window.wxc.xcConfirm('您输入的信息包含非法字符!', window.wxc.xcConfirm.typeEnum.info)-->
+<!--                return false;-->
+<!--            }-->
+<!--            if (result == "搜索" || result == "" || result == null) {-->
+<!--                window.wxc.xcConfirm('请输入检索条件!', window.wxc.xcConfirm.typeEnum.info)-->
+<!--                return false;-->
+<!--            } else {-->
+<!--                result = result.replace("-", "\-");-->
+<!--                result = result.replace("(", "\(");-->
+<!--                result = result.replace(")", "\)");-->
+<!--            }-->
+<!--            window.open("http://www.zhongxian.gov.cn/cq/index.html?sitecode=43f40931f0914733a6375a0af3645a33&siteid=54&keyWork=" + encodeURI(result));-->
+<!--        }-->
+<!--    </script>-->
+    <!-- 内容开始 -->
+    <div class="hd-main centerWidth">
+        <div class="main-box">
+            <div class="main-box-card">
+<!--                <div class="card-title" style="border-bottom: 0px solid #E1E1E1;background: url(static/images/xxbg_1.png) no-repeat center;height:70px;">-->
+<!--                    <a class="btn-mail-write" style="margin-top:10px;margin-left:0px;background: none!important;" href="http://www.cq.gov.cn/PublicMail/Citizen/WriteMail.aspx?intOrganizationID=181" target="_blank"><img src="static/picture/wyxx_1.png" /></a>-->
+<!--                    <a class="btn-mail-search" style="margin-top:10px;background: none!important;" href="http://www.cq.gov.cn/PublicMail/Citizen/MailSearch.aspx" target="_blank"><img src="static/picture/xjcx_1.png" /></a>-->
+
+<!--                    &lt;!&ndash;<div class="inter-search">-->
+<!--                    </div>&ndash;&gt;-->
+<!--                </div>-->
+                <div class="card-title">
+                    <a class="tit cur" href="./gkxx/" target="_blank">回复选登</a>
+                    <span id="slsl" style="margin-left:50px;"></span>
+                    <span  style="float:right">            <a class="gd" href="./gkxx/" target="_blank">更多</a></span>
+                </div>
+
+                <div class="card-content">
+                    <table class="card-content-list" id='ldxxlist'>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+<!--        <a href="javascript:void(0);"><img src="static/picture/wzxc1_1.png" style="margin-bottom:20px;px;" /></a>-->
+        <div class="main-box">
+            <!-- 在线访谈开始 -->
+            <div class="main-box-card ly-card2">
+                <a class="a1" href="http://222.178.116.153/wsts/add.jspx" target="_blank">网上信访</a>
+                <a class="a2" href="http://www.cq.gov.cn/wzzx/zxft" target="_blank">在线访谈</a>
+            </div>
+            <!-- 在线访谈结束 -->
+            <!-- 征集调查开始 -->
+            <div class="main-box-card ly-card3">
+                <div class="card-title">
+                    <a class="tit cur" href="./wsdc/" target="_blank">网上调查</a>
+                </div>
+                <div class="card-content">
+                    <ul class="card-content-list" id='zxdc'>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 征集调查结束 -->
+        </div>
+    </div>
+    <!-- 内容结束 -->
+
+
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="footer-centered">
+            <div class="footer-left" style="width:780px;">
+                <div class="footer-zt f-as underlines"><a href="http://www.zhongxian.gov.cn/ggbf_search/wzdt/" target='_blank'>网站地图</a> <!--<span>|</span>  <a href="http://www.zhongxian.gov.cn/ggbf_search/bqsm/" target='_blank'>版权申明</a> --> <span>|</span> <a href="http://www.zhongxian.gov.cn/ggbf_search/lxwm/" target='_blank'>联系我们</a>  </div>
+                <div class="footer-zt">重庆市忠县人民政府版权所有    重庆市忠县人民政府办公室主办</div>
+                <!--<div class="footer-zt">网站联系电话：023-54244184&nbsp;&nbsp;&nbsp;网站标识码：5002330002</div>-->
+                <div class="footer-zt">网站标识码：5002330002&nbsp;&nbsp;&nbsp;ICP备案：渝ICP备19012087号-1&nbsp;&nbsp;&nbsp;国际联网备案：渝公网安备 50023302000115号</div>
+                <!--<div class="footer-zt">建议使用1920×768分辨率 IE9.0以上、360、谷歌浏览器进行浏览</div>-->
+            </div>
+            <div class="footer-right">
+                <a href="http://121.43.68.40/exposure/jiucuo.html?site_code=5002330002&url=http%3A%2F%2Fwww.zhongxian.gov.cn%2Fmain%2F" target="_blank"><img src="static/picture/wzjc_1.png" style="float:left;" /></a>
+
+                <a href="http://bszs.conac.cn/sitename?method=show&id=3989EB69E8A6725FE053012819AC6361" target="_blank"><img src="static/picture/index2_1.png" /></a>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50023302000115" target="_blank"> <img src="static/picture/index1_1.png" /></a>
+
+            </div>
+        </div>
+    </div>
+
+    <!--侧边分享-->
+    <div class="index-float">
+
+        <a href="javascript:;"><img src="static/picture/qj-wx_1.png" /><p>微信</p><img class="img" src="static/picture/w020191216696836558563_1.png" /></a>
+
+
+        <a href="javascript:;"><img src="static/picture/qj-wb_1.png" /><p>微博</p><img class="img" src="static/picture/w020191216695713911853_1.png" /></a>
+
+        <!--
+                <a href=""><img src="static/picture/qj-jz_1.png" /><p>忠县供销社下足绣花功促进为农服务开新局</p><img class="img" src="" /></a>
+        <a class="index-float-btn" href="javascript:;"><img src="static/picture/qj-jz_1.png" />
+            <p>部门街镇</p>
+        </a>-->
+    </div>
+
+    <style>
+        .index-menu-l.l2 li{width:230px;margin-right:0px;}
+        .xiala-item{width:400px;}
+    </style>
+    <script id="_trs_ta_js" src="static/js/ta_1.js" async="async" defer="defer"></script>
+    <div class="dqwz" style="display:none"><a href="http://www.zhongxian.gov.cn/" title="首页" class="CurrChnlCls">首页</a>&nbsp;&gt;&nbsp;<a href="http://www.zhongxian.gov.cn/hdjl_156/" title="互动交流" class="CurrChnlCls">互动交流</a></div>
+
+    <script>
+        //当前位置颜色和样式
+        $('.dqwz a').css('float','inherit');
+
+        var text1=$('.dqwz a').eq(1).text();
+        $('.header-right-center a').each(function(){
+            if($(this).text()===text1){
+                $(".header-right-center a").removeClass('active');
+                $(this).addClass('active');
+            }
+        });
+
+        var text2=$('.dqwz a:last').text();
+        $('.left-list a').each(function(){
+            if($(this).html().indexOf(text2)>-1){
+                $('.left-list a').removeClass('active');
+                $(this).parent().addClass('active');
+            }
+        });
+    </script>
+</div>
+<script>
+    /*格式化日期*/
+    function dateformat(num) {
+        if (parseInt(num) < 10) {
+            num = '0' + num;
+        }
+        return num;
+    }
+    //时间戳转换
+    function getMyDate(str) {
+        if (typeof str == "undefined" || str == null || str == "" || str == "0") {
+            return "";
+        }
+        var oDate = new Date(str),
+            oYear = oDate.getFullYear(),
+            oMonth = oDate.getMonth() + 1,
+            oDay = oDate.getDate(),
+            oHour = oDate.getHours(),
+            oMin = oDate.getMinutes(),
+            oSen = oDate.getSeconds(),
+            oTime = oYear + '-' + dateformat(oMonth) + '-' + dateformat(oDay);//最后拼接时间
+        //oTime = oYear +'-'+ dateformat(oMonth) +'-'+ dateformat(oDay) +' '+ dateformat(oHour) +':'+ dateformat(oMin) +':'+dateformat(oSen);//最后拼接时间
+        return oTime;
+    }
+    function getMyDate2(str) {
+        if (typeof str == "undefined" || str == null || str == "" || str == "0") {
+            return "";
+        }
+        var oDate = new Date(str),
+            oYear = oDate.getFullYear(),
+            oMonth = oDate.getMonth(),
+            oDay = oDate.getDate(),
+            oHour = oDate.getHours(),
+            oMin = oDate.getMinutes(),
+            oSen = oDate.getSeconds(),
+            oTime = oYear + '年' + dateformat(oMonth) + '月';//最后拼接时间
+        //    oTime = oYear +'-'+ dateformat(oMonth) +'-'+ dateformat(oDay) +' '+ dateformat(oHour) +':'+ dateformat(oMin);//最后拼接时间
+        return oTime;
+    }
+
+    /**获取在线调查列表*/
+// function getZXDCList(siteId, pageIndex, pageSize){
+// var detailUrl = "http://www.zhongxian.gov.cn/hdjl_156/wsdc/detail.html?id="; //详情页地址
+// var url = "/IGI/open/survey/list"; //在线调查
+//
+// var datajson = {"siteId": siteId, "pageIndex": pageIndex, "pageSize": pageSize ,"orderBy":"startTime_desc"};
+//     $.ajax({
+//         url: url,
+//         dataType: "json",
+//         data: datajson,
+//         type:"get",
+//         async:"true",
+//         success: function (data) {
+//     if(data.statusCode != 200){
+//       return;
+//     }else{
+//       var html="";
+//         if(data.datas.data.length>5){
+//         data.datas.data.length = 5;
+//       }
+//       for(var i=0;i<data.datas.data.length;i++){
+//         var id = data.datas.data[i].id;//id
+//         var title = data.datas.data[i].title;//标题
+//         var begintime = getMyDate(parseInt(data.datas.data[i].publicTime)); //开始时间
+//         var num = parseInt(i+1);
+//           //html+='<li><a title='+title+' href="/personalCenter/answerSheet/answerSheet.html?siteId='+siteId+'&metadataId='+id+'" target="_blank"><span class="mail-1">'+title+'</span><span class="mail-3">'+begintime+'</span></a></li>'
+// html+='<li><a title='+title+' href="'+detailUrl+id+'" target="_blank"><span class="mail-1">'+title+'</span><span class="mail-3">'+begintime+'</span></a></li>';
+//       }
+//       $("#zxdc").html(html);
+//
+//     }
+//   },error:function(data){
+//       console.info(data);
+//   }
+// })
+// }
+
+    // 获取公开信箱列表
+    function getSZXXList(pageNum, pageSize){
+        var address = "localhost:8085/getMsgInfo"; //信件接口
+        var datajson = {"pageSize":pageSize,"pageNum": pageNum};
+        $.ajax({
+            url: address,
+            dataType: "json",
+            data: datajson,
+            type:"post",
+            async:"true",
+            success: function (res) {
+                if(res.status!= 200){
+                    return;
+                }else{
+                    var html='<tr class="list-header"><th class="ly-w1">标题</th><th class="ly-w2">内容</th><th class="ly-w2">提交日期</th><th class="ly-w4">回复日期</th></tr>';
+
+                    for(var i=0;i<res.data.rows;i++){
+                        var title = res.data.rows[i].title;//邮件字号
+                        //  var title = data.data[i].title;//标题
+                        var stuContent = res.data.rows[i].stuContent; //地址
+                        var teacherCrtime = getMyDate(res.data.rows[i].teacherCrtime.replace(/-/g,"/"));//回复时间
+                        var stuCrtime = getMyDate(res.data.rows[i].stuCrtime.replace(/-/g,"/"));//写信时间
+
+                        html+='<tr><td class="ly-w1"><a href="'+stuContent+'" title="'+title+'" target="_blank">'+title+'</a></td><td class="ly-w2">'+dept+'</td><td class="ly-w2">'+stuCrtime+'</td><td class="ly-w4">'+teacherCrtime+'</td></tr>'
+                    }
+                    //console.log(data);
+                    // var sljs = data.sljs;
+                    // var bjjs = data.bjjs;
+                    $("#ldxxlist").append(html);
+                    // $("#slsl").append('<a class="tit" style="color: #275293;font-size: 17px;margin-right:0px;" href="javascript:void(0);">重庆市忠县人民政府'+getMyDate2((new Date()).getTime() )+'来信：<span style="font-weight: bold;">受理</span><span style="color:#f96000">'+sljs+'</span><span style="font-weight: bold;">件</span>  <span style="font-weight: bold;">办结</span><span style="color:#f96000">'+bjjs+'</span><span style="font-weight: bold;">件</span></a>');
+                }
+            },error:function(data){
+                console.info(data);
+            }
+        })
+    }
+    $(function () {
+        getSZXXList(0, 6);  // 公开信箱列表
+
+        getZXDCList(156,0,5);// 在线访谈列表初始化
+        // getZXFTList(156, 1, 9);
+    });
+</script>
+<style>
+    .gd{
+        float: right;
+        height:20px;
+        line-height:20px;
+        margin-top: 20px;
+        padding: 2px 9px 3px 9px;
+        font-size: 15px;
+        color: #fff;
+        background: #275293;
+        border-radius: 3px;
+        display: inline-block;
+    }
+    .gd:hover{
+        background:#275293
+    }
+    .ly-w2{width:200px;}
+    .main-box-card .card-title .tit.cur {
+        display: inline-block;
+        font-size: 24px;
+        padding-left: 10px;
+        color:  #275293;
+        font-weight: initial;
+        position: relative;
+    }
+
+</style>
+</body>
+</html>

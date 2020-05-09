@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>详情</title>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"> </script>
+    <script type="text/javascript" src="../js/public.js"></script>
+    <link href="../css/common.css" rel="stylesheet" />
+    <link href="../css/public.css" rel="stylesheet" />
+    <link href="../css/divWindow.css" rel="stylesheet"/>
+
+</head>
+<script>
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null)return unescape(r[2]);
+        return null;
+    }
+    $(function(){
+        var index = GetQueryString("index");
+        var chargeRuleLogs = JSON.parse(sessionStorage.getItem("rowsData"))
+        var stuCrtime=chargeRuleLogs[index].stuCrtime
+        var submitDate = stuCrtime.split(" ")
+        $("#title").text(chargeRuleLogs[index].title)
+        $("#submitDate").text(submitDate[0])
+        $("#stuContent").text(chargeRuleLogs[index].stuContent)
+    })
+    function saveTeacherMsg() {
+        //获取token
+        var str = sessionStorage.obj;
+        var obj = $.parseJSON(str);
+        var token = obj.token;
+        //获取建议id
+        var index = GetQueryString("index");
+        var chargeRuleLogs = JSON.parse(sessionStorage.getItem("rowsData"))
+        var stuContentId = chargeRuleLogs[index].stuContentId;
+        var content =$("input[name='content']").val()
+
+        $.ajax({
+            url: "http://localhost:8085/saveMsg",
+            headers:{"token":token},
+            type: "POST",
+            async: false,
+            data:{
+                "titleOrStuContentId":stuContentId,
+                 "content":content
+            },
+            success:function (res) {
+                if (res.status == 200){
+                    alert("ok")
+                    window.location.replace("teacherAction.html")
+                }else if(res.status==500){
+                    alert(res.msg)
+                }
+            }
+        })
+
+    }
+</script>
+
+
+<body>
+<div class="main centerWidth">
+    <div class="xl-main">
+        <div class="zwxl-content">
+            <div class="zwxl-title">
+                <p id="title" class="tit"></p>
+                <div class="zwxl-bar"><span class="tit" >提交日期：</span><span class="con" id="submitDate"></span>
+                </div>
+            </div>
+            <div class="zwxl-article">
+                <h3>提交内容:</h3><br>
+                <p id="stuContent"></p>
+                <button class="btn btn-info" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'" style="margin-left: 850px;font-size: 20px">点击回复</button>
+                <div id="light" class="white_content"><button  class="btn btn-primary" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" style="margin-left: 850px;font-size: 18px">关闭</button>
+                    <div>
+                        <form id="megAction">
+                            <p style="font-size: 18px">回复内容</p><br>
+                            <input type="text"   name="content" class="lx_content_teacher" name="content"/><br>
+                            <input value="提交" type="button" class="btn btn-primary" onclick="saveTeacherMsg()" style="margin-left:510px;margin-top:5px;font-size: 18px"/>
+                        </form>
+                    </div>
+                </div>
+                <div id="fade" class="black_overlay"></div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

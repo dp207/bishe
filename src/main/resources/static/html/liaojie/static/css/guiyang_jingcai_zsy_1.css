@@ -1,0 +1,307 @@
+﻿@charset "utf-8";
+/* CSS Document */
+ @media screen and (max-width: 1025px) {
+#fp-nav{
+	display:none;
+	}
+.div22_bg {
+	background: url(../images/jcgy_gygk_bg_sj_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.div1_bg {
+	transition: transform;
+	transform: scale(2);
+}
+.div1_fhsy {
+	transition: transform;
+	transform: scale(2.5);
+	margin-left: 30px;
+}
+.div11_css3 {
+	transition: transform;
+	transform: scale(1.3);
+	margin-left: 44px;
+}
+/*贵阳概况*/
+#menu {
+	transition: transform;
+	transform: scale(2);
+	margin-left: 86px;
+	margin-top: 90px;
+}
+.div221 {
+	transition: transform;
+	transform: scale(2);
+	background: none;
+}
+.div22_gyxzqh_on {
+	transition: transform;
+	transform: scale(2);
+	margin-top: 103px;
+}
+#s_gyxzqh, #main {
+	display: none;
+}
+.div222 ul div.d21, .div222 ul div.d22_on, .div222 ul div.d23 {
+	transition: transform;
+	transform: scale(1.2);
+}
+.div222 ul div.d21 {
+	top: -20px;
+	left: 24%;
+}
+.div222 ul div.d22_on {
+	top: 290px;
+	left: 24%;
+}
+.div222 ul div.d23 {
+	top: 590px;
+	left: 24%;
+}
+#fp-nav {
+	transition: transform;
+	transform: scale(2);
+}
+.div222 li .a1, .div222 li .a2, .div222 li .a3 {
+	display: inline-block !important;
+}
+.div1 {
+	width: 298px;
+}
+/*贵阳历史*/
+.div24_bg {
+	background: url(../images/jcgy_gyls_bg_sj_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.div241 {
+	background: none;
+	transition: transform;
+	transform: scale(2);
+}
+.div242_on {
+	top: 20%;
+}
+.div2421, .div2422, .div2423 {
+	float: none;
+	margin-left: 30%;
+	margin-bottom: 200px;
+	overflow: hidden;
+	transition: transform;
+	transform: scale(1.5);
+}
+.div2422 {
+	float: none;
+	margin-left: 23.5%;
+	margin-bottom: 200px;
+	overflow: hidden;
+	transition: transform;
+	transform: scale(1.9);
+}
+.div2421 {
+	background: url(../images/gyls_lsmr_1.jpg) no-repeat;
+	background-size: cover;
+	height: 77px;
+}
+.div2421 h4{
+    position: relative;
+    top: -6px;
+}
+.div2423 {
+	background-size: cover;
+	height: 65px;
+}
+.div2422 ul li.on:nth-of-type(1) {
+	left: 10px;
+}
+.div2422 ul li.on:nth-of-type(2) {
+	width: 100%;
+	left: 10px;
+}
+.div2422 ul li.on:nth-of-type(3) {
+	left: 10px;
+}
+.div2422 ul li.on {
+	transform: scale(1);
+	left: 10px;
+}
+.div2422_ul_li2 {
+	left: 10px;
+}
+.div2421 {
+	transform: scale(1.3);
+}
+.div2423 {
+	left: 31%;
+	margin-left: 32%;
+}
+/*贵阳发展*/
+.div25_bg {
+	background: url(../images/jcgy_gyfz_bg_sj_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.div251 {
+	background: none;
+	transition: transform;
+	transform: scale(2);
+}
+.div252 {
+	display: none;
+}
+.div25 ul.div25_ul1_on {
+	transform: scale(1);
+	left: 28%;
+}
+.div25 ul.div25_ul1 {
+	overflow: auto;
+	top: 16%;
+	height: 600px;
+}
+.div25 ul.div25_ul1 li {
+	margin-left: 35px;
+	margin-bottom: 25px;
+	width: 180px;
+}
+.div25 ul.div25_ul1 li div {
+	width: 160px;
+}
+.div253 {
+	transition: all 1.5s;
+	transform: scale(1.6);
+	top: 90%;
+	left: 43%;
+}
+.div253_on {
+	top: 65%;
+}
+/*贵阳投资*/
+.div21_bg {
+	background: url(../images/jcgy_gytz_bg_sj_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.div211 {
+	background: none;
+	transition: transform;
+	transform: scale(2);
+}
+.div212_main {
+	transition: transform;
+	transform: scale(1.4);
+}
+.div212_on {
+	top: 26%;
+}
+.div212_u2 {
+	width: 460px;
+	left: 29px;
+	height: 120px;
+	bottom: -70px;
+}
+.div212_u2 li {
+	margin-bottom: 10px;
+}
+.div212 {
+	left: 36%;
+}
+/*贵阳旅游*/
+.div261 {
+	background: none;
+	transition: transform;
+	transform: scale(2);
+}
+.div26_bg {
+	background: url(../images/jcgy_gyly_bg_sj_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.div262 {
+	transition: transform;
+	transform: scale(2.5);
+}
+.div2621_on {
+	top: 230px;
+	left: 352px;
+	height: 36px;
+}
+.div2622_on {
+	top: 260px;
+	left: 352px;
+	height: 36px;
+}
+.div2623_on {
+	transition: transform;
+	transform: scale(0.8);
+	top: 360px;
+	left: 290px;
+}
+.div2624_on {
+	top: 290px;
+	left: 352px;
+	height: 36px;
+}
+.div2625_on {
+	top: 320px;
+	left: 352px;
+	height: 36px;
+}
+.div262>div>img, .div262>div>ul {
+	display: none;
+}
+/*贵阳百科全书*/
+.div23_bg {
+	background: url(../images/jcgy_gybkqs_bg_sj_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.div231 {
+	background: none;
+	transition: transform;
+	transform: scale(2);
+}
+.div231_xz {
+	display: none;
+}
+.div231_s2 {
+	text-indent: 27px;
+}
+.div232 div.d1_on {
+	left: 300px;
+	top: 380px;
+}
+.div232 {
+	transition: transform;
+	transform: scale(1.1);
+	left: 18%;
+}
+#menu .active a[href="#page6"] {
+	font-size: 19px;
+}
+}
+
+ @media screen and (max-width: 500px) {
+.div23_bg {
+	background: url(../images/jcgy_gybkqs_bg_sj425_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.div26_bg {
+	background: url(../images/jcgy_gyly_bg_sj425_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.div21_bg {
+	background: url(../images/jcgy_gytz_bg_sj425_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.div25_bg {
+	background: url(../images/jcgy_gyfz_bg_sj425_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.div24_bg {
+	background: url(../images/jcgy_gyls_bg_sj425_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.div22_bg {
+	background: url(../images/jcgy_gygk_bg_sj425_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+}
+ @media screen and (max-width: 376px) {
+}
+ @media screen and (max-width: 321px) {
+}

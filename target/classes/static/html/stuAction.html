@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+<!--    <link rel="stylesheet" type="text/css" href="../css/main.css"/>-->
+    <link href="css/style-index.css" rel="stylesheet">
+<!--    <link rel="stylesheet" type="text/css" href="../css/style.css"/>-->
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 在bootstrap.min.js 之前引入 -->
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+<!--    <script type="text/javaScript" src="../js/common.js"></script>-->
+<!--    <script type="text/javascript" src="../js/jquery.fullPage.min.js"></script>-->
+<!--    <script src="../js/mjy.js"></script>-->
+<!--    <script type="text/javascript" src="../js/js.js"></script>-->
+    <script type="text/javascript "src="../js/stuAction.js"></script>
+    <link href="../css/divWindow.css" rel="stylesheet"/>
+</head>
+<style>
+    #reply{display: block;}
+    #noReply{display: none;}
+</style>
+<body class="lxbg">
+<div class="warp">
+    <!-- 头部 -->
+    <div class="header">
+        <div class="header-centered">
+            <!--            <img src="images/logo.png" class="header-logo">-->
+            <div class="header-right">
+                <img class="header-right-l-hide" src="images/index-h1.png">
+                <div class="header-right-left">
+                    <div class="header-right-center" style="width: 150%">
+                        <a href="javascript:getIndex()">首页</a>
+                        |
+                        <a href="/html/liaojie/cekong.html" target="_blank">了解测控</a>
+                        |
+                        <a class="active">互动交流</a>
+                        |
+                        <a>师资力量</a>
+                        |
+                        <a>培养方案</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-left: 25%;margin-top: 5%;width: 50%" >
+        <button class="btn btn-info" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'" style="margin-left: 850px">我要提建议</button>
+        <div id="light" class="white_content"><button  class="btn btn-primary" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" style="margin-left: 850px">关闭</button>
+            <div>
+                <form id="megAction">
+                    <p>标题</p><br>
+                    <input type="text" placeholder="title" name="titleOrStuContentId" class="title_content"/><br>
+                    <p>内容</p><br>
+                    <input type="text"   name="content" class="lx_content"/><br>
+                    <input value="提交" type="button" class="btn btn-primary" onclick="saveStuMsg()" style="margin-left:510px;margin-top:5px"/>
+                </form>
+            </div>
+        </div>
+        <div id="fade" class="black_overlay"></div>
+        <div style="margin-top:-35px">
+            <a id="reply_btn" class="btn btn-primary">已回复</a>  <a id="noReply_btn" class="btn btn-primary" >未回复</a>
+        <div id="reply">
+        <table class="table table-hover" >
+             <thead>
+        <tr>
+            <th>标题</th>
+            <th>回复人</th>
+            <th>提交时间</th>
+            <th>回复时间</th>
+            <th>详情</th>
+
+                             </tr>
+                      </thead>
+
+                          <tbody class="table_node">
+                          <tr class="info" >
+
+                                <!--动态载入数据-->
+        </tr>
+                            <!-- more data -->
+                      </tbody>
+
+        </table>
+        </div>
+        <div  id="noReply">
+        <table class="table table-hover ">
+             <thead>
+        <tr >
+            <th>标题</th>
+            <th>提交时间</th>
+            <th>详情</th>
+
+                             </tr>
+                      </thead>
+
+                          <tbody class="table_node2">
+                          <tr class="info" id="tr2">
+
+                                <!--动态载入数据-->
+        </tr>
+                            <!-- more data -->
+                      </tbody>
+
+        </table>
+        </div>
+<!--            <ul class="pager">-->
+<!--                <li><a href="#" onclick="getPage()">上一页</a></li>-->
+<!--                <li><a href="#" >下一页</a></li>-->
+<!--            </ul>-->
+        </div>
+</div>
+    </div>
+</body>
+</html>

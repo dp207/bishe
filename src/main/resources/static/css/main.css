@@ -1,0 +1,247 @@
+@charset 'utf-8';
+
+/******样式清除******/
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+a,
+span {
+	vertical-align: top;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+input,
+button,
+text {
+	vertical-align: top;
+	outline: none;
+	border: none;
+}
+
+button {
+	padding: 0;
+	background: none;
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+}
+
+textarea {
+	outline: none;
+	border: none;
+	resize: none;
+}
+
+input,
+textarea {
+	box-sizing: content-box;
+	outline: none;
+	background: 0 0;
+	font-family: "Microsoft YaHei";
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: #acacac;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+	color: #acacac;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	color: #acacac;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	color: #acacac;
+}
+
+table tr td,
+table {
+	border-collapse: collapse;
+}
+
+body {
+	font-size: 0;
+	color: #000;
+	font-family: "Microsoft YaHei";
+	/* background: url("../images/bg.png") no-repeat center top; */
+	background-size: cover;
+	/* 此处加上-ms前缀，让IE识别 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/item-img.png',sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/item-img.png', sizingMethod='scale')";
+
+}
+
+.opacity90 {
+	background-color: #fff;
+	background-color: rgb(255, 255, 255, 0.9);
+	opacity: 0.9\0;
+	filter: alpha(opacity=90);
+}
+
+.opacity60 {
+	background-color: #fff;
+	background-color: rgb(255, 255, 255, 0.6);
+	opacity: 0.6\0;
+	filter: alpha(opacity=60);
+}
+
+.h100p {
+	height: 100px;
+}
+
+.w28 {
+	width: 28%;
+}
+
+.w70 {
+	width: 70%;
+}
+
+
+/*****通用样式******/
+
+/*清除浮动*/
+
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.lf {
+	float: left;
+}
+
+.rt {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.db {
+	display: inline-block;
+}
+
+
+/* 文字溢出 */
+
+.e {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+
+/*定位*/
+.position {
+    margin-left: 10px;
+    font: 14px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 42px;
+    letter-spacing: 0px;
+    color: #666666;
+    margin: 10px auto;
+    width: 1170px;
+    padding-left: 30px;
+    background: url("../images/qj-jz1.png")no-repeat;
+}
+.position .poto {
+    font: 14px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 42px;
+    letter-spacing: 0px;
+    color: #666666;
+}
+.position .poto:hover{
+	color: #1369c0;
+}
+.pagination{/*分页*/
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.pagination a{
+    width: 32px;
+    line-height: 32px;
+    display: inline-block;
+    text-align: center;
+    background: #eee;
+    border-radius: 3px;
+    margin: 0 6px;
+}
+.pagination a:hover{
+    background: #2760b7;
+    color: #fff;
+    cursor:pointer;
+}
+.pagination .first-page,.pagination .last-page{
+    width: 78px;
+}
+.pagination .active{
+    background: #1369c0;
+    color: #fff;
+}
+

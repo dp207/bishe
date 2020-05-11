@@ -46,6 +46,8 @@
   font-size: 20px;
   color: #1369c0;
   font-weight: bold;
+  margin-top: 10px;
+  margin-left: 17px
 }
 .universal-titile2 a{
   border-left: 3px solid #1369c0;
@@ -696,10 +698,34 @@
   width: 914px;
 }
 .ld-r-content{
-  font-size: 16px;
+  font-size: 17px;
   line-height: 40px;
   color: #333;
   margin: 10px 0 20px;
+}
+.ld-r-content_new{
+    font-size: 28px;
+    line-height: 40px;
+    color: #333;
+    width: 80%;
+    margin-left: 10%;
+    font-family: cursive;
+    margin-top: 30px;
+}
+.titnew{
+    font-size: 30px;
+    line-height: 40px;
+    color: #333;
+    width: 60%;
+    margin-left: 43%;
+    margin-top: 20px;
+}
+.contentNew{
+    width: 42%;
+    height: 825px;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 28%;
 }
 /*领导列表*/
 .ldx-content{
@@ -1243,45 +1269,45 @@
 .ldxx, .qxqk, .qzqd , .jgzn, .ysqgk{
   cursor: pointer;
 }
-.ldxx {
-  background: url(../images/gk-ldxx.png);
-  width: 230px;
-  height: 80px;
-  border-radius: 5px;
-  float: left;
-}
+/*.ldxx {*/
+/*  background: url(../images/gk-ldxx.png);*/
+/*  width: 230px;*/
+/*  height: 80px;*/
+/*  border-radius: 5px;*/
+/*  float: left;*/
+/*}*/
 
-.qxqk {
-  background: url(../images/gk-qqgk-bg.png);
-  width: 230px;
-  height: 80px;
-  border-radius: 5px;
-  float: left;
-}
+/*.qxqk {*/
+/*  background: url(../images/gk-qqgk-bg.png);*/
+/*  width: 230px;*/
+/*  height: 80px;*/
+/*  border-radius: 5px;*/
+/*  float: left;*/
+/*}*/
 
-.qzqd {
-  background: url(../images/gk-qzqd-bg.png);
-  width: 230px;
-  height: 80px;
-  border-radius: 5px;
-  float: left;
-}
+/*.qzqd {*/
+/*  background: url(../images/gk-qzqd-bg.png);*/
+/*  width: 230px;*/
+/*  height: 80px;*/
+/*  border-radius: 5px;*/
+/*  float: left;*/
+/*}*/
 
-.jgzn {
-  background: url(../images/gk-jgzn-bg.png);
-  width: 230px;
-  height: 80px;
-  border-radius: 5px;
-  float: left;
-}
+/*.jgzn {*/
+/*  background: url(../images/gk-jgzn-bg.png);*/
+/*  width: 230px;*/
+/*  height: 80px;*/
+/*  border-radius: 5px;*/
+/*  float: left;*/
+/*}*/
 
-.ysqgk {
-  background: url(../images/gk-ysqgk-bg.png);
-  width: 227px;
-  height: 80px;
-  border-radius: 5px;
-  float: left;
-}
+/*.ysqgk {*/
+/*  background: url(../images/gk-ysqgk-bg.png);*/
+/*  width: 227px;*/
+/*  height: 80px;*/
+/*  border-radius: 5px;*/
+/*  float: left;*/
+/*}*/
 
 .bfdh img {
   width: 28px;
@@ -1457,16 +1483,16 @@
   margin: -2px 3px 0 17px;
 }
 
-.zw-nav-item {
-  width: 160px;
-  height: 40px;
-  margin-top: 12px;
-  margin-right: 11px;
-  font-size: 16px;
-  line-height: 40px;
-  text-align: center;
-  background: url(../images/zw-tit-bg2.png) center center no-repeat;
-}
+/*.zw-nav-item {*/
+/*  width: 160px;*/
+/*  height: 40px;*/
+/*  margin-top: 12px;*/
+/*  margin-right: 11px;*/
+/*  font-size: 16px;*/
+/*  line-height: 40px;*/
+/*  text-align: center;*/
+/*  background: url(../images/zw-tit-bg2.png) center center no-repeat;*/
+/*}*/
 
 .zw-nav-item a {
   color: #ffffff;
@@ -1477,17 +1503,17 @@
   height: 40px;
 }
 
-.main-left-con .tit1 {
-  display: inline-block;
-  font-size: 18px;
-  width: 290px;
-  height: 40px;
-  line-height: 40px;
-  margin-top: 14px;
-  border-radius: 4px;
-  color: #ffffff;
-  background: url(../images/zw-tit-bg3.png) center center no-repeat;
-}
+/*.main-left-con .tit1 {*/
+/*  display: inline-block;*/
+/*  font-size: 18px;*/
+/*  width: 290px;*/
+/*  height: 40px;*/
+/*  line-height: 40px;*/
+/*  margin-top: 14px;*/
+/*  border-radius: 4px;*/
+/*  color: #ffffff;*/
+/*  background: url(../images/zw-tit-bg3.png) center center no-repeat;*/
+/*}*/
 
 .main-left-con .tti {
   width: 17px;
@@ -1531,13 +1557,13 @@
   right: 0;
 }
 
-.listbox .parent .pli .open {
-  background: url(../images/icon-ml-up.png) no-repeat center center;
-}
+/*.listbox .parent .pli .open {*/
+/*  background: url(../images/icon-ml-up.png) no-repeat center center;*/
+/*}*/
 
-.listbox .parent .pli .close {
-  background: url(../images/icon-ml-down.png) no-repeat center center;
-}
+/*.listbox .parent .pli .close {*/
+/*  background: url(../images/icon-ml-down.png) no-repeat center center;*/
+/*}*/
 
 .listbox .child .chlia {
   font-size: 14px;

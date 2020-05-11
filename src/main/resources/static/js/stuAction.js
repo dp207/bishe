@@ -70,7 +70,7 @@
                                 + "<td>" + chargeRuleLogs[index].teacherName + "</td>"
                                 + "<td>" + chargeRuleLogs[index].stuCrtime + "</td>"
                                 + "<td>" + chargeRuleLogs[index].teacherCrtime + "</td>"
-                                + "<a target='_blank' href="+"replyDetail.html?index="+index+">内容详情</a>"
+                                + "</td>"+"<a target='_blank' href="+"replyDetail.html?index="+index+">内容详情</a>"+"</td>"
 
                             //将要展示的信息写入页面
                             rowTr.innerHTML = child
@@ -83,7 +83,7 @@
                             rowTr.className = "tr_node"
                             var child = "<td>" + chargeRuleLogs[index].title +  "</td>"
                                 + "<td>" + chargeRuleLogs[index].stuCrtime + "</td>"
-                                + "<a target='_blank' href="+"noReplyDetail.html?index="+index+">内容详情</a>"
+                                +"<td>"+ "<a target='_blank' href="+"noReplyDetail.html?index="+index+">内容详情</a>"+"</td>"
 
                             //将要展示的信息写入页面
                             rowTr.innerHTML = child

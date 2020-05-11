@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主要学科、课程</title><link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/main.css"/>
+    <link href="css/style-index.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <link href="../css/divWindow.css" rel="stylesheet"/>
+    <script type="text/javascript" src="../js/js.js"></script>
+</head>
+<script>
+    function getIndex() {
+        var item = sessionStorage.getItem('index');
+        var a = document.createElement('a');
+        if (item=="null"||item==null){
+            a.setAttribute("href", '../../index');
+        }else {
+            a.setAttribute("href", '../../html/'+item);}
+        document.body.appendChild(a);
+        a.click();
+    }
+</script>
+<body style="background-color: #f2f2f2">
+<!-- 头部 -->
+<div class="header">
+    <div class="header-centered">
+        <img src="../images/logo.png" class="header-logo">
+        <div class="header-right">
+            <img class="header-right-l-hide" src="../images/index-h1.png">
+            <div class="header-right-left">
+                <div class="header-right-center" style="width: 150%">
+                    <a href="javascript:getIndex()">首页</a>
+                    |
+                    <a href="/html/liaojie/cekong.html" target="_blank">了解测控</a>
+                    |
+                    <a href="/html/teacherAction.html">互动交流</a>
+                    |
+                    <a href="/html/teacherInfo.html">师资力量</a>
+                    |
+                    <a href="/html/liaojie/developPlan.html">培养方案</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="contentNew" style="height:100%;">
+    <div><br><br><br>当前位置:<a href="/html/liaojie/developPlan.html">培养方案>></a><a href="/html/classInfo.html">主要学科</a><br></div>
+    <div class="titnew" style="margin-left: 30%">
+        主要学科、课程及学分比例
+    </div>
+    <div class="ld-r-content_new" >
+       <p style="font-size: 24px;font-family: auto">1、主干学科</p>
+
+        仪器科学与技术、机械工程、控制理论与控制工程、计算机科学与技术<br><br>
+
+        <p style="font-size: 24px;font-family: auto">2、主要课程</p>
+
+        检测技术、信号分析与处理、电路理论、光电探测与信号处理、误差理论与数据处理、计量学原理、机械工程控制基础、测控仪器设计、测控网络技术、DSP原理与应用、计算机控制技术 <br><br>
+        <p style="font-size: 24px;font-family: auto">3、课程平台及学分比例</p>
+        <img src="../images/classinfo.png">
+    </div>
+</div>
+
+</body>
+</html>

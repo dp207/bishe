@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>就业方向</title>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/main.css"/>
+    <link href="css/style-index.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <link href="../css/divWindow.css" rel="stylesheet"/>
+    <script type="text/javascript" src="../js/js.js"></script>
+</head>
+<script>
+    function getIndex() {
+        var item = sessionStorage.getItem('index');
+        var a = document.createElement('a');
+        if (item=="null"||item==null){
+            a.setAttribute("href", '../../index');
+        }else {
+            a.setAttribute("href", '../../html/'+item);}
+        document.body.appendChild(a);
+        a.click();
+    }
+</script>
+<body style="background-color: #f2f2f2">
+<!-- 头部 -->
+<div class="header">
+    <div class="header-centered">
+        <img src="../images/logo.png" class="header-logo">
+        <div class="header-right">
+            <img class="header-right-l-hide" src="../images/index-h1.png">
+            <div class="header-right-left">
+                <div class="header-right-center" style="width: 150%">
+                    <a href="javascript:getIndex()">首页</a>
+                    |
+                    <a href="/html/liaojie/cekong.html" target="_blank">了解测控</a>
+                    |
+                    <a href="/html/teacherAction.html">互动交流</a>
+                    |
+                    <a href="/html/teacherInfo.html">师资力量</a>
+                    |
+                    <a href="/html/liaojie/developPlan.html">培养方案</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="contentNew" >
+    <div><br><br><br>当前位置:<a href="/html/liaojie/developPlan.html">培养方案>></a><a href="/html/jobDirection.html">就业方向</a><br></div>
+    <div class="titnew" style="margin-left: 40%">
+        就业方向
+    </div>
+    <div class="ld-r-content_new" >
+        &#8195;&#8195;毕业生可在测试仪器和精密测量与控制的理论研究单位(科研机构或高等院校)从事测控系统理论研究及教学工作;可在测控装备与仪器的设计与开发单位(部门或公司)、软件开发行业、科研机构或高等院校从事系统的设计、开发及教学研究工作;可在测控与仪器技术的应用领域从事与检测或监测有关的应用研究、技术开发、生产管理和行政管理工作。
+    </div>
+</div>
+
+</body>
+</html>

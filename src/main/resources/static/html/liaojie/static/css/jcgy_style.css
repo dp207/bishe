@@ -107,45 +107,45 @@ a:hover, a:focus {
 	-ms-animation: jcgy_donghu 10s linear infinite;
 	animation: jcgy_donghu 10s linear infinite;
 }
- @-webkit-keyframes jcgy_donghu {
- 0% {
--webkit-transform:rotate(0deg);
-}
- 100% {
--webkit-transform:rotate(360deg);
-}
+@-webkit-keyframes jcgy_donghu {
+	0% {
+		-webkit-transform:rotate(0deg);
+	}
+	100% {
+		-webkit-transform:rotate(360deg);
+	}
 }
 @-moz-keyframes jcgy_donghu {
- 0% {
--moz-transform:rotate(0deg)
-}
- 100% {
--moz-transform:rotate(360deg)
-}
+	0% {
+		-moz-transform:rotate(0deg)
+	}
+	100% {
+		-moz-transform:rotate(360deg)
+	}
 }
 @-o-keyframes jcgy_donghu {
- 0% {
--o-transform:rotate(0deg)
-}
- 100% {
--o-transform:rotate(360deg)
-}
+	0% {
+		-o-transform:rotate(0deg)
+	}
+	100% {
+		-o-transform:rotate(360deg)
+	}
 }
 @-ms-keyframes jcgy_donghu {
- 0% {
--ms-transform:rotate(0deg)
-}
- 100% {
--ms-transform:rotate(360deg)
-}
+	0% {
+		-ms-transform:rotate(0deg)
+	}
+	100% {
+		-ms-transform:rotate(360deg)
+	}
 }
 @keyframes jcgy_donghu {
- 0% {
-transform:rotate(0deg)
-}
- 100% {
-transform:rotate(360deg)
-}
+	0% {
+		transform:rotate(0deg)
+	}
+	100% {
+		transform:rotate(360deg)
+	}
 }
 .div11 a {
 	font-size: 26px;
@@ -421,8 +421,8 @@ transform:rotate(360deg)
 }
 /*循环点击部分*/
 .div212_u2 {
-	 width: 790px;
-    left: -165px;
+	width: 790px;
+	left: -165px;
 	height: 120px;
 	z-index: 3;
 	position: absolute;
@@ -490,7 +490,7 @@ transform:rotate(360deg)
 	z-index: -1;
 	width: 100%;
 	height: 100%;
-	background: url(../images/jcgy_gygk_bg.jpg) no-repeat;
+	background: url(https://img.zcool.cn/community/01822b5e5a6f82a80120a895381ad1.jpg@1280w_1l_2o_100sh.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .div22_bg img {
@@ -499,7 +499,7 @@ transform:rotate(360deg)
 }
 /*贵阳概况主体部分*/
 .div22 {
-	width: 1200px;
+	width: 1400px;
 	height: 100%;
 	position: relative;
 	margin: 0 auto;
@@ -726,8 +726,8 @@ transform:rotate(360deg)
 .div222 ul .d22 {
 	background: url(../images/gygk_center2.png) no-repeat center center;
 	background-size: 100% 100%;
-	top: 0px;
-	left: 176px;
+	top: -55px;
+	left: 169px;
 	z-index: 2;
 	-webkit-transform: scale(0.6);
 	-moz-transform: scale(0.6);
@@ -748,9 +748,33 @@ transform:rotate(360deg)
 }
 .div222 ul div.d23 {
 	top: 0px;
-	right: 0;
+	right: 700px;
 	left: auto;
 	z-index: 3;
+	background: url(../images/gygk_right3.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+.div222 ul div.d24 {
+	top: 215px;
+	right: 1039px;
+	left: auto;
+	z-index: 4;
+	background: url(../images/gygk_right3.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+.div222 ul div.d25 {
+	top: 269px;
+	right: 868px;
+	left: auto;
+	z-index: 4;
+	background: url(../images/gygk_right3.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+.div222 ul div.d26 {
+	top: 215px;
+	right: 698px;
+	left: auto;
+	z-index: 4;
 	background: url(../images/gygk_right3.png) no-repeat center center;
 	background-size: 100% 100%;
 }
@@ -1332,7 +1356,7 @@ transform:rotate(360deg)
 	-ms-transition: all .6s ease-out;
 	transition: all .6s ease-out;
 	color: #006699;
-    font-size: 20px;
+	font-size: 20px;
 }
 .div25 ul.div25_ul1 li:nth-of-type(2) div h4 {
 	background: url(../images/gyls_xt_bg2.png) no-repeat top center;
@@ -1373,7 +1397,7 @@ transform:rotate(360deg)
 .div25 ul.div25_ul1 li:hover div h4 {
 	background: url(../images/gyls_xt_bg1_hover.png) no-repeat top center;
 	margin-top: 15px;
-	 color:#fff; 
+	color:#fff;
 }
 .div25 ul.div25_ul1 li:nth-of-type(2):hover div h4 {
 	background: url(../images/gyls_xt_bg2_hover.png) no-repeat top center;

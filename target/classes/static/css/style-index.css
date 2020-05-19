@@ -55,11 +55,11 @@
 }
 
 .index-wrap1-col1 {
-  width: 590px;
+  width: 620px;
   height: 70%;
   position: relative;
   overflow: hidden;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .index-wrap1-col1 .index-pictt a:hover {
@@ -125,9 +125,9 @@
 }
 
 .main_tab {
-  width: 590px;
-  height: 320px;
-  margin-top: 70px;
+  width: 640px;
+  height: 390px;
+  margin-top: 170px;
 }
 
 .main_tab .tab-list-bool {
@@ -761,13 +761,13 @@
 }
 
 .xhy-htr1 .aa1 {
-  background: url(../images/qj-weibo.png) no-repeat;
+  /*background: url(../images/qj-weibo.png) no-repeat;*/
   padding-left: 29px;
 }
 
 .xhy-htr1 .aa2 {
   padding-left: 30px;
-  background: url(../images/qj-weixin.png) no-repeat;
+  /*background: url(../images/qj-weixin.png) no-repeat;*/
 }
 
 .xhy-htr2 {

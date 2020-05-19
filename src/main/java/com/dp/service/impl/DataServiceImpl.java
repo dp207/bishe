@@ -61,7 +61,7 @@ public class DataServiceImpl implements LoginService {
                     //String token= DigestUtils.md5DigestAsHex((password+phone).getBytes());
                     //存入redis
                     redisOperator.set("user_token:"+token, JsonUtils.objectToJson(userPojos.get(0)));
-                    redisOperator.expire("user_token:"+token,60);
+                    redisOperator.expire("user_token:"+token,120);
                     session.setAttribute("token",token);
                     //添加结果返回信息
                     userInfoResult.setRole(role);
@@ -125,4 +125,34 @@ public class DataServiceImpl implements LoginService {
         }
 
     }
+
+    @Override
+    public IMoocJSONResult updataUserInfo(HttpServletRequest httpServletRequest, String username, String passWord) {
+        //获取用户信息
+        UserPojo userPojo = getLoginUser(httpServletRequest);
+        try {
+            //非空校验
+            ValidUtils.ValidateNotNull(username,passWord);
+
+            userPojo.setUsername(username);
+            userPojo.setPassword(passWord);
+
+            userMapper.insert(userPojo);
+            return IMoocJSONResult.build(200,"修改成功",null);
+        }catch (Exception e){
+
+            return IMoocJSONResult.build(500,"修改异常",null);
+        }
+
+    }
+    public UserPojo getLoginUser(HttpServletRequest httpServletRequest){
+        String token = httpServletRequest.getHeader("token");
+
+        System.out.println(token+"header");
+        //获取当前用户信息
+        String userInfo = redisOperator.get("user_token:" + token);
+        UserPojo userPojo = JsonUtils.jsonToPojo(userInfo, UserPojo.class);
+        return userPojo;
+    }
+
 }

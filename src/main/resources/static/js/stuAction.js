@@ -70,7 +70,8 @@
                                 + "<td>" + chargeRuleLogs[index].teacherName + "</td>"
                                 + "<td>" + chargeRuleLogs[index].stuCrtime + "</td>"
                                 + "<td>" + chargeRuleLogs[index].teacherCrtime + "</td>"
-                                + "</td>"+"<a target='_blank' href="+"replyDetail.html?index="+index+">内容详情</a>"+"</td>"
+                                + "<td>"+"<a target='_blank' href="+"replyDetail.html?index="+index+">内容详情</a>"+"</td>"
+                                +"<td>"+ "<button class='btn btn-danger' onclick='delMsg("+chargeRuleLogs[index].stuContentId+")'>删除</button>"+"</td>"
 
                             //将要展示的信息写入页面
                             rowTr.innerHTML = child
@@ -84,6 +85,7 @@
                             var child = "<td>" + chargeRuleLogs[index].title +  "</td>"
                                 + "<td>" + chargeRuleLogs[index].stuCrtime + "</td>"
                                 +"<td>"+ "<a target='_blank' href="+"noReplyDetail.html?index="+index+">内容详情</a>"+"</td>"
+                                 +"<td>"+ "<button class='btn btn-danger' onclick='delMsg("+chargeRuleLogs[index].stuContentId+")'>删除</button>"+"</td>"
 
                             //将要展示的信息写入页面
                             rowTr.innerHTML = child
@@ -125,46 +127,28 @@ function getIndex() {
         });
     });
 
-          function getPage() {
-
-
-                var pageNum =sessionStorage.getItem("pageNum")
-                 var i=parseInt("0")
-                  //将结果存入缓存
-                  var chargeRuleLogs = JSON.parse(sessionStorage.getItem("msg"));
-                  $("#tr2").empty();
-                  var rowTr = document.createElement('tr')
-                  //对list值进行便利
-                  for (i;i<2;i++) {
-                      var index = 9+i
-                      if (chargeRuleLogs[index].teacherPhone!=null){
-
-                          //找到html的tr节点
-                          rowTr.className = "tr_node"
-                          var child = "<td>" + chargeRuleLogs[index].title +  "</td>"
-                              + "<td>" + chargeRuleLogs[index].teacherName + "</td>"
-                              + "<td>" + chargeRuleLogs[index].stuCrtime + "</td>"
-                              + "<td>" + chargeRuleLogs[index].teacherCrtime + "</td>"
-                              + "<td>详情 </td>"
-
-                          //将要展示的信息写入页面
-                          rowTr.innerHTML = child
-                          //将信息追加
-                          $(".table_node").append(rowTr)
-                      }else {
-                          var rowTr = document.createElement('tr')
-                          //找到html的tr节点
-                          rowTr.className = "tr_node"
-                          var child = "<td>" + chargeRuleLogs[index].title +  "</td>"
-                              + "<td>" + chargeRuleLogs[index].stuCrtime + "</td>"
-                              + "<td>详情 </td>"
-
-                          //将要展示的信息写入页面
-                          rowTr.innerHTML = child
-                          //将信息追加
-                          $(".table_node2").append(rowTr)
+          function delMsg(id) {
+              var base_url="http://localhost:8085/delMsg";
+              var str = sessionStorage.obj;
+              var obj = $.parseJSON(str);
+              var token = obj.token;
+              $.ajax({
+                  url: base_url,
+                  headers:{"token":token},
+                  type: "POST",
+                  async: false,
+                  // data:{ message:JSON.stringify($("#testForm").serialize())},
+                  data:{
+                      "id":id
+                  },
+                  success:function (res) {
+                      if (res.status == 200){
+                          alert("删除成功")
+                          window.location.replace("stuAction.html")
+                      }else if(res.status==500){
+                          alert(res.msg)
                       }
-
                   }
-              }
+              })
 
+          }

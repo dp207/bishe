@@ -17,4 +17,6 @@ public interface InteractionService {
     IMoocJSONResult getMsgInfo(HttpServletRequest httpServletRequest,Integer pageSize,Integer pageNum);
 
     UserPojo getLoginUser(HttpServletRequest httpServletRequest);
+
+    IMoocJSONResult delMsg(HttpServletRequest httpServletRequest, String id);
 }

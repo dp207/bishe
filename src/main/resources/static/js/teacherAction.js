@@ -52,7 +52,7 @@ $(function(){
                                 + "<td>" + chargeRuleLogs[index].stuCrtime + "</td>"
                                 + "<td>" + chargeRuleLogs[index].teacherCrtime + "</td>"
                                 + "<td>" +"<a target='_blank' href="+"replyDetail.html?index="+index+">内容详情</a>"+"</td>"
-
+                                +"<td>"+ "<button class='btn btn-danger' onclick='delMsg("+chargeRuleLogs[index].stuContentId+")'>删除</button>"+"</td>"
                             //将要展示的信息写入页面
                             rowTr.innerHTML = child
                             //将信息追加
@@ -108,19 +108,19 @@ function getIndex() {
 }
 $(function() {
     $("#reply_btn").click(function() {
-        $("#reply").css("display", "block");
+        $("#reply").css("display", "block","active");
         $("#noReply").css("display", "none");
         $("#myReply").css("display", "none");
     });
     $("#noReply_btn").click(function() {
         $("#reply").css("display", "none");
-        $("#noReply").css("display", "block");
+        $("#noReply").css("display", "block","active");
         $("#myReply").css("display", "none");
     });
     $("#myReply_btn").click(function() {
         $("#reply").css("display", "none");
         $("#noReply").css("display", "none");
-        $("#myReply").css("display", "block");
+        $("#myReply").css("display", "block","active");
     });
 });
 function logout() {
@@ -156,4 +156,29 @@ function logout() {
             }
         }
     })
+}
+function delMsg(id) {
+    var base_url="http://localhost:8085/delMsg";
+    var str = sessionStorage.obj;
+    var obj = $.parseJSON(str);
+    var token = obj.token;
+    $.ajax({
+        url: base_url,
+        headers:{"token":token},
+        type: "POST",
+        async: false,
+        // data:{ message:JSON.stringify($("#testForm").serialize())},
+        data:{
+            "id":id
+        },
+        success:function (res) {
+            if (res.status == 200){
+                alert("删除成功")
+                window.location.replace("teacherAction.html")
+            }else if(res.status==500){
+                alert(res.msg)
+            }
+        }
+    })
+
 }

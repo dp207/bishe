@@ -26,9 +26,8 @@ $().ready(function() {
             rpassword: {
                 equalTo: "#register_password"
             },
-            email: {
+            phone: {
                 required: true,
-                email: true
             }
         },
         messages: {
@@ -40,9 +39,9 @@ $().ready(function() {
             rpassword: {
                 equalTo: "两次密码不一样"
             },
-            email: {
-                required: "请输入邮箱",
-                email: "请输入有效邮箱"
+            phone: {
+                required: "请输入手机号",
+
             }
         }
     });
@@ -74,6 +73,9 @@ function login() {
     // if (str!=null){
     //     alert(info)
     //}else {
+    if($("input[name='phone']").val()==""||$("input[name='password']")==""){
+
+    }else {
         $.ajax({
             url: base_url_login,
             type: "POST",
@@ -88,7 +90,7 @@ function login() {
 
                         window.open("html/stu.html");
                         window.close()
-                        };
+                    };
                     if(res.data.role=="1"){
                         sessionStorage.setItem("index","teacher.html")
                         window.open("html/teacher.html");
@@ -104,26 +106,33 @@ function login() {
                 }
             }
         })
+    }
+
     //}
 
 }
 function register() {
-    $.ajax({
-        url: base_url_register,
-        type: "POST",
-        async: false,
-        // data:{ message:JSON.stringify($("#testForm").serialize())},
-        data:$("#register_form").serialize(),
-        success:function (res) {
-            console.log(res.msg)
-            if (res.status == 200){
-                alert("注册成功")
-            }else if(res.status == 500) {
-                alert("注册异常,异常为"+res.msg)
-            }if(res.status==201){
-                alert(res.msg)
+    if($("input[name='username']").val()==""||$("input[name='password']")==""||$("input[name='phone']")==""){
+
+    }else {
+        $.ajax({
+            url: base_url_register,
+            type: "POST",
+            async: false,
+            // data:{ message:JSON.stringify($("#testForm").serialize())},
+            data:$("#register_form").serialize(),
+            success:function (res) {
+                console.log(res.msg)
+                if (res.status == 200){
+                    alert("注册成功")
+                }else if(res.status == 500) {
+                    alert("注册异常,异常为"+res.msg)
+                }if(res.status==201){
+                    alert(res.msg)
+                }
             }
-        }
-    })
+        })
+    }
+
 }
 

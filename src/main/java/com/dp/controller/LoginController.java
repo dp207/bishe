@@ -5,6 +5,7 @@ import com.dp.service.impl.DataServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -26,7 +27,7 @@ public class LoginController extends BasicController{
     * @Date: 2020/3/2
     */
     @RequestMapping(value = "/login", method={RequestMethod.GET,RequestMethod.POST})
-    public IMoocJSONResult dealLoginData(String phone, String password,HttpServletRequest httpServletRequest){
+    public IMoocJSONResult login(String phone, String password,HttpServletRequest httpServletRequest){
 
         return dataService.dealLoginData(phone,password,httpServletRequest);
     }
@@ -55,5 +56,17 @@ public class LoginController extends BasicController{
     @RequestMapping(value = "/logout", method={RequestMethod.GET,RequestMethod.POST})
     public IMoocJSONResult logout(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse){
         return dataService.logout(httpServletRequest,httpServletResponse);
+    }
+
+    /**
+    * @Description: 更新用户信息
+    * @Param:
+    * @return:
+    * @Author: 兰鑫
+    * @Date: 2020/5/15
+    */
+    @RequestMapping(value = "updataUser",method={RequestMethod.GET,RequestMethod.POST})
+    public IMoocJSONResult updataUserInfo(HttpServletRequest httpServletRequest,String username,String passWord){
+        return dataService.updataUserInfo(httpServletRequest,username,passWord);
     }
 }

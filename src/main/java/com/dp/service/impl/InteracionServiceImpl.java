@@ -102,4 +102,19 @@ public class InteracionServiceImpl implements InteractionService {
         UserPojo userPojo = JsonUtils.jsonToPojo(userInfo, UserPojo.class);
         return userPojo;
     }
+
+    @Override
+    public IMoocJSONResult delMsg(HttpServletRequest httpServletRequest, String id) {
+
+        try {
+            //非空校验
+            ValidUtils.ValidateNotNull(id);
+            //删除
+            interactionMapper.deleteByPrimaryKey(id);
+            return IMoocJSONResult.build(200,"删除成功",null);
+        }catch (Exception e){
+            return IMoocJSONResult.build(500,"删除异常，异常信息为"+e,null);
+        }
+
+    }
 }

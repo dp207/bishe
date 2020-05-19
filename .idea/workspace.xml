@@ -2,118 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf32dc77-8dab-4081-9f58-0d04f15430ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/classInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/jobDirection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/developPlan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/require.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/studyYear.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/target.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/classinfo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/cy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/mzz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/wxq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/bgimg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/bgimg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/jyfx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/zyjs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/studyForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/form1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/form10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/form2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/form3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/form4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/form5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/form6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/form7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/form8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/form9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/jyfx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/lj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/lunbo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/lunbo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/lunbo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/nexImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/preImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/yjs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/zg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/lunbo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/superTeacher.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dp/controller/InteractionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dp/controller/InteractionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dp/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dp/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dp/service/InteractionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dp/service/InteractionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dp/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dp/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dp/service/impl/DataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dp/service/impl/DataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dp/service/impl/InteracionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dp/service/impl/InteracionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dp/utils/ValidUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dp/utils/ValidUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/divWindow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/divWindow.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style-index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/cekong.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/cekong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/developPlan.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/developPlan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/guiyang_jingcai_zsy.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/guiyang_jingcai_zsy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/guiyang_jingcai_zsy_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/guiyang_jingcai_zsy_1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style_1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/noReplyDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/noReplyDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/replyDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/replyDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/require.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/require.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/stu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/stu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/stuAction.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/stuAction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacher.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/teacherAction.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacherAction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bmjzindex1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bmjzindex2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bmjzindex3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bmjzindex4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bmjzindex5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bmjzindex6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bmjzindex8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gailan3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gk-jgzn-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gk-jgzn-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gk-ldxx-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gk-ldxx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gk-qqgk-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gk-qqgk-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gk-qqqd-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gk-qzqd-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gk-ysqgk-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/gk-ysqgk-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/index-pic1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/index-pic2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/index-pic3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/index-pic4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/index-point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ty-icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ty-icon10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ty-icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ty-icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ty-icon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ty-icon5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ty-icon6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ty-icon7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ty-icon8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ty-icon9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ty-icon9o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/zw-tit-bg3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/zw-tit1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/zw-tit2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/zwgk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/zwgk2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/zwgk3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/zwgk4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/teacherReplyDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacherReplyDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/stuAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/stuAction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/teacherAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/teacherAction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dp/controller/InteractionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dp/controller/InteractionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dp/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dp/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dp/service/InteractionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dp/service/InteractionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dp/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dp/service/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dp/service/impl/DataServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dp/service/impl/DataServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dp/service/impl/InteracionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dp/service/impl/InteracionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dp/utils/ValidUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dp/utils/ValidUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/divWindow.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/divWindow.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/style-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style-index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/liaojie/cekong.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/liaojie/cekong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/guiyang_jingcai_zsy.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/guiyang_jingcai_zsy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/guiyang_jingcai_zsy_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/guiyang_jingcai_zsy_1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style_1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/noReplyDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/noReplyDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/replyDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/replyDetail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/html/stu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/stu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/html/stuAction.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/stuAction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/html/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/teacher.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/html/teacherAction.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/teacherAction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bmjzindex1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bmjzindex2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bmjzindex3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bmjzindex4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bmjzindex5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bmjzindex6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/bmjzindex8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gailan3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gk-jgzn-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gk-jgzn-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gk-ldxx-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gk-ldxx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gk-qqgk-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gk-qqgk-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gk-qqqd-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gk-qzqd-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gk-ysqgk-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/gk-ysqgk-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/index-pic1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/index-pic2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/index-pic3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/index-pic4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/index-point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ty-icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ty-icon10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ty-icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ty-icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ty-icon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ty-icon5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ty-icon6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ty-icon7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ty-icon8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ty-icon9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ty-icon9o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/zw-tit-bg3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/zw-tit1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/zw-tit2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/zwgk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/zwgk2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/zwgk3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/zwgk4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/teacherReplyDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/teacherReplyDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/stuAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/stuAction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/teacherAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/teacherAction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
@@ -147,13 +117,18 @@
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -184,7 +159,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -200,9 +175,9 @@
       <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\html\liaojie\static\images" />
       <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\images" />
       <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\html\liaojie\static\picture" />
-      <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\html\liaojie\static\images" />
       <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\js" />
       <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\html" />
     </key>
@@ -376,22 +351,31 @@
       <workItem from="1588813833479" duration="16782000" />
       <workItem from="1588900327747" duration="2590000" />
       <workItem from="1588988505473" duration="11234000" />
-      <workItem from="1589160046559" duration="17761000" />
+      <workItem from="1589160046559" duration="18733000" />
+      <workItem from="1589246240393" duration="16755000" />
+      <workItem from="1589510838555" duration="16027000" />
+      <workItem from="1589601452324" duration="8960000" />
+      <workItem from="1589689897260" duration="3008000" />
+      <workItem from="1589700777233" duration="5753000" />
     </task>
+    <task id="LOCAL-00001" summary="初步完成提交">
+      <created>1589192233986</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589192233986</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初步完成提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初步完成提交" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="595" y="173" key="#Custom_Plugin_Repositories" timestamp="1580638067990">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="595" y="173" key="#Custom_Plugin_Repositories/0.0.1920.1040@0.0.1920.1040" timestamp="1580638067990" />
-    <state x="595" y="173" key="#HTTP_Proxy" timestamp="1580637754806">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="595" y="173" key="#HTTP_Proxy/0.0.1920.1040@0.0.1920.1040" timestamp="1580637754806" />
     <state x="552" y="179" key="#SQL_Dialects" timestamp="1588127099957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -412,46 +396,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583660656783" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589016573734">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589628634570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589016573734" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589628634570" />
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1589192233145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589192233145" />
     <state x="715" y="275" key="FileChooserDialogImpl" timestamp="1587017897543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587017897543" />
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1589191726843">
+    <state width="1877" height="308" key="GridCell.Tab.0.bottom" timestamp="1589724491620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589191726843" />
-    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1589191726843">
+    <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589724491620" />
+    <state width="1877" height="308" key="GridCell.Tab.0.center" timestamp="1589724491620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589191726843" />
-    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1589191726843">
+    <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589724491620" />
+    <state width="1877" height="308" key="GridCell.Tab.0.left" timestamp="1589724491620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589191726843" />
-    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1589191726843">
+    <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589724491620" />
+    <state width="1877" height="308" key="GridCell.Tab.0.right" timestamp="1589724491620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589191726843" />
-    <state width="1877" height="213" key="GridCell.Tab.1.bottom" timestamp="1589191726844">
+    <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589724491620" />
+    <state width="1877" height="308" key="GridCell.Tab.1.bottom" timestamp="1589724491620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589191726844" />
-    <state width="1877" height="213" key="GridCell.Tab.1.center" timestamp="1589191726843">
+    <state width="1877" height="308" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589724491620" />
+    <state width="1877" height="308" key="GridCell.Tab.1.center" timestamp="1589724491620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589191726843" />
-    <state width="1877" height="213" key="GridCell.Tab.1.left" timestamp="1589191726843">
+    <state width="1877" height="308" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589724491620" />
+    <state width="1877" height="308" key="GridCell.Tab.1.left" timestamp="1589724491620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589191726843" />
-    <state width="1877" height="213" key="GridCell.Tab.1.right" timestamp="1589191726844">
+    <state width="1877" height="308" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589724491620" />
+    <state width="1877" height="308" key="GridCell.Tab.1.right" timestamp="1589724491620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589191726844" />
+    <state width="1877" height="308" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589724491620" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1583140321703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -476,10 +464,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="504" y="157" width="1268" height="715" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584262051279" />
-    <state x="615" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589002798588">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589192243301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="615" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589002798588" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589192243301" />
+    <state x="615" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589700787863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="615" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589700787863" />
     <state x="731" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583412756800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -488,13 +480,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="377" y="245" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1581663441583" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1589166520315">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1589522444159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589166520315" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588734601248">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589522444159" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589521982901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588734601248" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589521982901" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dp/service/impl/DataServiceImpl.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

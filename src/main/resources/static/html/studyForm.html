@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>教学进程表</title><link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/main.css"/>
+    <link href="css/style-index.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <link href="../css/divWindow.css" rel="stylesheet"/>
+    <script type="text/javascript" src="../js/js.js"></script>
+</head>
+<script>
+    function getIndex() {
+        var item = sessionStorage.getItem('index');
+        var a = document.createElement('a');
+        if (item=="null"||item==null){
+            a.setAttribute("href", '../../index');
+        }else {
+            a.setAttribute("href", '../../html/'+item);}
+        document.body.appendChild(a);
+        a.click();
+    }
+</script>
+<body style="background-color: #f2f2f2">
+<!-- 头部 -->
+<div class="header">
+    <div class="header-centered">
+        <img src="../images/logo.png" class="header-logo">
+        <div class="header-right">
+            <img class="header-right-l-hide" src="../images/index-h1.png">
+            <div class="header-right-left">
+                <div class="header-right-center" style="width: 150%">
+                    <a href="javascript:getIndex()">首页</a>
+                    |
+                    <a href="/html/liaojie/cekong.html" target="_blank">了解测控</a>
+                    |
+                    <a href="/html/teacherAction.html">互动交流</a>
+                    |
+                    <a href="/html/teacherInfo.html">师资力量</a>
+                    |
+                    <a href="/html/liaojie/developPlan.html">培养方案</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="contentNew" style="height:100%;">
+    <div><br><br><br>当前位置:<a href="/html/liaojie/developPlan.html">培养方案>></a><a href="/html/studyForm.html">教学进程表</a><br></div>
+    <div class="titnew" style="margin-left: 22%">
+        测控技术与仪器专业指导性教学进程表
+    </div>
+    <div class="ld-r-content_new" >
+        <img src="../images/form1.png">
+        <img src="../images/form2.png" style="margin-left: -6px;">
+        <img src="../images/form3.png" style="margin-left: -6px;">
+        <img src="../images/form4.png">
+        <img src="../images/form5.png">
+        <img src="../images/form6.png" style="margin-left: -4px;">
+        <img src="../images/form7.png">
+        <img src="../images/form8.png" style="margin-left: -11px;">
+        <img src="../images/form9.png">
+        <img src="../images/form10.png">
+
+    </div>
+</div>
+
+</body>
+</html>

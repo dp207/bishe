@@ -3,8 +3,10 @@ package com.dp.controller;
 import com.dp.common.utils.IMoocJSONResult;
 import com.dp.service.impl.InteracionServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 
@@ -13,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
  * @auther lan.xin
  * @date 2020/3/713:05
  **/
-@RestController
+@RestController("interaction")
 public class InteractionController extends BasicController{
 
 
@@ -44,6 +46,19 @@ public class InteractionController extends BasicController{
    @RequestMapping(value = "getMsgInfo",method={RequestMethod.GET,RequestMethod.POST})
     public IMoocJSONResult getMsgInfo(HttpServletRequest httpServletRequest,Integer pageSize,Integer pageNum){
         return interacionService.getMsgInfo(httpServletRequest,pageSize,pageNum);
+    }
+
+    /**
+    * @Description: 删除信息
+    * @Param:
+    * @return:
+    * @Author: 兰鑫
+    * @Date: 2020/5/15
+    */
+    @RequestMapping(value="delMsg",method={RequestMethod.POST})
+    public IMoocJSONResult delMsg(HttpServletRequest httpServletRequest,@RequestParam(value = "id") String id){
+        System.out.println(id);
+       return interacionService.delMsg(httpServletRequest,id);
     }
 
 }

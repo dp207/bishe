@@ -49,20 +49,21 @@
 
     <div style="margin-left: 25%;margin-top: 5%;width: 50%" >
         <button class="btn btn-info" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'" style="margin-left: 850px">我要提建议</button>
-        <div id="light" class="white_content"><button  class="btn btn-primary" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" style="margin-left: 850px">关闭</button>
+        <div id="light" class="white_content_stu"><button  class="btn btn-primary" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" style="margin-left: 850px">关闭</button>
             <div>
                 <form id="megAction">
                     <p>标题</p><br>
                     <input type="text" placeholder="title" name="titleOrStuContentId" class="title_content"/><br>
                     <p>内容</p><br>
-                    <input type="text"   name="content" class="lx_content"/><br>
+                    <textarea name="content" class="lx_content" name="content" placeholder="请输入内容..."></textarea><br>
+<!--                    <input type="textarea"   name="content" class="lx_content"/><br>-->
                     <input value="提交" type="button" class="btn btn-primary" onclick="saveStuMsg()" style="margin-left:510px;margin-top:5px"/>
                 </form>
             </div>
         </div>
         <div id="fade" class="black_overlay"></div>
         <div style="margin-top:-35px">
-            <a id="reply_btn" class="btn btn-primary">已回复</a>  <a id="noReply_btn" class="btn btn-primary" >未回复</a>
+            <button id="reply_btn" class="btn btn-primary">已回复</button>  <button id="noReply_btn" class="btn btn-primary" >未回复</button>
         <div id="reply">
         <table class="table table-hover" >
              <thead>

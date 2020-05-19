@@ -12,11 +12,24 @@
     filter: alpha(opacity=88);
 }
 .white_content {
+     display: none;
+     position: absolute;
+     top: 25%;
+     left: 25%;
+     width: 46%;
+     height: 55%;
+     padding: 20px;
+     border: 4px solid #428bca;
+     background-color: white;
+     z-index:1002;
+     overflow: auto;
+ }
+.white_content_stu {
     display: none;
     position: absolute;
     top: 25%;
     left: 25%;
-    width: 45%;
+    width: 46%;
     height: 45%;
     padding: 20px;
     border: 4px solid #428bca;

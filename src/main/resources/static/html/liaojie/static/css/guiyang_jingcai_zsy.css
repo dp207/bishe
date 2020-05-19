@@ -6,7 +6,7 @@
 	}
 .div22_bg {
 	background: url(../images/jcgy_gygk_bg_sj.jpg) no-repeat;
-	background-size: 100% 100%;
+	background-size: 100% 150%;
 }
 .div1_bg {
 	transition: transform;
@@ -297,7 +297,7 @@
 	background-size: 100% 100%;
 }
 .div22_bg {
-	background: url(../images/jcgy_gygk_bg_sj425.jpg) no-repeat;
+	background: url(../images/bgimg2.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 }

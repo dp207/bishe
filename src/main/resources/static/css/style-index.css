@@ -125,9 +125,10 @@
 }
 
 .main_tab {
-  width: 640px;
-  height: 390px;
+  width: 680px;
+  height: 380px;
   margin-top: 170px;
+  margin-left: 20px;
 }
 
 .main_tab .tab-list-bool {

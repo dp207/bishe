@@ -73,8 +73,8 @@ function login() {
     // if (str!=null){
     //     alert(info)
     //}else {
-    if($("input[name='phone']").val()==""||$("input[name='password']")==""){
-
+    if($("input[name='phone']").val()==""||$("input[name='password']").val()==""){
+              return false;
     }else {
         $.ajax({
             url: base_url_login,
@@ -103,6 +103,7 @@ function login() {
                     alert(res.msg)
                 }else if (res.status==208){
                     alert(res.msg)
+
                 }
             }
         })
@@ -112,9 +113,9 @@ function login() {
 
 }
 function register() {
-    if($("input[name='username']").val()==""||$("input[name='password']")==""||$("input[name='phone']")==""){
-
-    }else {
+    // if($("input[name='username']").val()==""||$("input[name='password']").val()==""||$("input[name='phone']").val()==""){
+    //
+    // }else {
         $.ajax({
             url: base_url_register,
             type: "POST",
@@ -129,10 +130,11 @@ function register() {
                     alert("注册异常,异常为"+res.msg)
                 }if(res.status==201){
                     alert(res.msg)
+                    return false;
                 }
             }
         })
-    }
+    //}
 
 }
 

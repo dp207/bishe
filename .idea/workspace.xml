@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf32dc77-8dab-4081-9f58-0d04f15430ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/lxlb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/lxlb2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/lxbg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/mqfz .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/mqfz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/zyhj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/lxbg3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style-index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/cekong.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/cekong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/developPlan.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/developPlan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style_1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/stu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/stu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/stuAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/stuAction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/style-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style-index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/liaojie/cekong.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/liaojie/cekong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style_1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/stu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/stu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/teacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +102,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -92,12 +113,13 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.dp.pojo" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\templates" />
+      <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\images" />
       <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\html\liaojie\static\images" />
+      <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\images" />
       <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\html\liaojie\static\picture" />
       <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\js" />
       <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static\html" />
@@ -105,9 +127,8 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dp.utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\templates" />
-      <recent name="C:\Users\86136\IdeaProjects\BiShe\src\main\resources\static" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dp.pojo" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BiSheApplication">
@@ -279,7 +300,10 @@
       <workItem from="1589601452324" duration="8960000" />
       <workItem from="1589689897260" duration="3008000" />
       <workItem from="1589700777233" duration="5753000" />
-      <workItem from="1589863984590" duration="2186000" />
+      <workItem from="1589863984590" duration="14553000" />
+      <workItem from="1590034357766" duration="3943000" />
+      <workItem from="1590123276076" duration="24227000" />
+      <workItem from="1590393342425" duration="9166000" />
     </task>
     <task id="LOCAL-00001" summary="初步完成提交">
       <created>1589192233986</created>
@@ -295,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589864158676</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bishe2.0">
+      <created>1589866297494</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589866297494</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,46 +362,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589628634570" />
-    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1589864157449">
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1589866296876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589864157449" />
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589866296876" />
     <state x="715" y="275" key="FileChooserDialogImpl" timestamp="1587017897543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587017897543" />
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom" timestamp="1589866093207">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1590409402456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589866093207" />
-    <state width="1877" height="308" key="GridCell.Tab.0.center" timestamp="1589866093206">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1590409402456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589866093206" />
-    <state width="1877" height="308" key="GridCell.Tab.0.left" timestamp="1589866093206">
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1590409402456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589866093206" />
-    <state width="1877" height="308" key="GridCell.Tab.0.right" timestamp="1589866093207">
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1590409402456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589866093207" />
-    <state width="1877" height="308" key="GridCell.Tab.1.bottom" timestamp="1589866093207">
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
+    <state width="1877" height="263" key="GridCell.Tab.1.bottom" timestamp="1590409402456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589866093207" />
-    <state width="1877" height="308" key="GridCell.Tab.1.center" timestamp="1589866093207">
+    <state width="1877" height="263" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
+    <state width="1877" height="263" key="GridCell.Tab.1.center" timestamp="1590409402456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589866093207" />
-    <state width="1877" height="308" key="GridCell.Tab.1.left" timestamp="1589866093207">
+    <state width="1877" height="263" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
+    <state width="1877" height="263" key="GridCell.Tab.1.left" timestamp="1590409402456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589866093207" />
-    <state width="1877" height="308" key="GridCell.Tab.1.right" timestamp="1589866093207">
+    <state width="1877" height="263" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
+    <state width="1877" height="263" key="GridCell.Tab.1.right" timestamp="1590409402456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589866093207" />
+    <state width="1877" height="263" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1583140321703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -387,10 +418,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583140321703" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1581492044110">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581492044110" />
     <state x="504" y="157" width="1268" height="715" key="SettingsEditor" timestamp="1584262051279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -399,22 +426,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589864200786" />
-    <state x="615" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589700787863">
+    <state x="615" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590034177352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="615" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589700787863" />
+    <state x="615" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590034177352" />
     <state x="731" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583412756800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583412756800" />
-    <state x="697" y="311" key="git4idea.merge.GitPullDialog" timestamp="1589865601844">
+    <state x="697" y="311" key="git4idea.merge.GitPullDialog" timestamp="1589866303757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="697" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589865601844" />
-    <state x="377" y="245" key="new project wizard" timestamp="1581663441583">
+    <state x="697" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589866303757" />
+    <state x="341" y="213" key="new project wizard" timestamp="1590224294902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="377" y="245" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1581663441583" />
+    <state x="341" y="213" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590224294902" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1589522444159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -431,6 +458,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/dp/service/impl/DataServiceImpl.java</url>
           <line>150</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/static/js/teacherAction.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

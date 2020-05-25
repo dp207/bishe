@@ -55,7 +55,7 @@
 }
 
 .index-wrap1-col1 {
-  width: 620px;
+  width: 630px;
   height: 70%;
   position: relative;
   overflow: hidden;
@@ -125,10 +125,9 @@
 }
 
 .main_tab {
-  width: 680px;
-  height: 380px;
+  width: 640px;
+  height: 420px;
   margin-top: 170px;
-  margin-left: 20px;
 }
 
 .main_tab .tab-list-bool {
@@ -713,9 +712,11 @@
 }
 
 .xhy-hide {
-  background: url(https://img.zcool.cn/community/01822b5e5a6f82a80120a895381ad1.jpg@1280w_1l_2o_100sh.jpg) no-repeat top center;
+  background: url(../images/lxbg3.jpg) no-repeat top center;
   background-size: 100%;
-  margin-top: -10px;
+  width: 100%;
+  height: 100.6%;
+  margin-bottom: -14px;
 }
 
 .xhy-h {

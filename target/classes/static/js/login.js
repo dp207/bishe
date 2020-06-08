@@ -58,6 +58,8 @@ $(function() {
 });
 var base_url_login = "http://localhost:8085/user/login";
 var base_url_register = "http://localhost:8085/user/register";
+var base_url_login2 = "http://120.77.221.159:8085/user/login";
+var base_url_register2 = "http://120.77.221.159:8085/user/register";
 var mm=5
 $(function(){
     var url=window.location.href;                    //获取当前页面的url
@@ -73,6 +75,7 @@ function login() {
     // if (str!=null){
     //     alert(info)
     //}else {
+    var aa = $("input[type='checkbox']").is(":checked");//获取选中状态
     if($("input[name='phone']").val()==""||$("input[name='password']").val()==""){
               return false;
     }else {
@@ -86,15 +89,17 @@ function login() {
                 if (res.status == 200){
                     sessionStorage.obj = JSON.stringify(res.data);
                     if(res.data.role=="0"){
-                        sessionStorage.setItem('index',"stu.html")
-
-                        window.open("html/stu.html");
-                        window.close()
+                            sessionStorage.setItem('index',"stu.html")
+                            window.open("html/stu.html");
+                            window.close()
                     };
                     if(res.data.role=="1"){
-                        sessionStorage.setItem("index","teacher.html")
-                        window.open("html/teacher.html");
-                        window.close();};
+
+                            sessionStorage.setItem("index","teacher.html")
+                            window.open("html/teacher.html");
+                            window.close();};
+
+
                 }else if(res.status == 201) {
                     alert(res.msg)
                 }else if(res.status==500){
@@ -138,3 +143,41 @@ function register() {
 
 }
 
+//把信息设置进去Cookie里面去
+function setCookie(){
+
+    var phone = $("input[name='phone']").val();
+    alert(phone)
+    var password = $("input[name='password']").val();
+    var aa = $("input[type='checkbox']").is(":checked");//获取是否选中
+    if(aa==true){//如果选中-->记住密码登录
+        alert("opop")
+        $.cookie("phone",phone);//有效时间7天，也可以设置为永久，把时间去掉就好
+        alert("opop2")
+        $.cookie("password",password);
+    }else{//如果没选中-->不记住密码登录
+        $.cookie("password", "");
+        $.cookie("phone", "");
+        alert("没有记住密码")
+    }
+}
+
+
+function getCookie(){ //获取cookie
+    var phone = $.cookie("phone"); //获取cookie中的用户名
+    alert(phone)
+    var pwd =  $.cookie("password"); //获取cookie中的登陆密码
+    if(pwd){//密码存在的话把“记住用户名和密码”复选框勾选住
+        $("[name='rememenber']").attr("checked","true");
+    }
+    if(phone!=""){//用户名存在的话把用户名填充到用户名文本框
+        $("input[name='phone']").val(phone);
+    }else{
+        $("input[name='password']").val(pwd);
+    }
+    if(pwd!=""){//密码存在的话把密码填充到密码文本框
+        $("input[name='password']").val(pwd);
+    }else{
+        $("#password").val("");
+    }
+}

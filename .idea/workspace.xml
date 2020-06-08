@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf32dc77-8dab-4081-9f58-0d04f15430ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/lxbg3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/mqfz .jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/mqfz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/images/zyhj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/lxbg3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style-index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/cekong.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/cekong.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/developPlan.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/developPlan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/liaojie/static/css/jcgy_style_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/stu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/stu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/teacherInfo2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/stuAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/stuAction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style-index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/html/liaojie/cekong.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/liaojie/cekong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/liaojie/static/css/jcgy_style_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/html/stu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/stu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/html/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/teacher.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
@@ -303,7 +282,8 @@
       <workItem from="1589863984590" duration="14553000" />
       <workItem from="1590034357766" duration="3943000" />
       <workItem from="1590123276076" duration="24227000" />
-      <workItem from="1590393342425" duration="9166000" />
+      <workItem from="1590393342425" duration="11516000" />
+      <workItem from="1591168951051" duration="11356000" />
     </task>
     <task id="LOCAL-00001" summary="初步完成提交">
       <created>1589192233986</created>
@@ -326,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589866297494</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bishe3.0">
+      <created>1590409556655</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590409556655</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +322,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初步完成提交" />
     <MESSAGE value="bishe2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="bishe2.0" />
+    <MESSAGE value="bishe3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="bishe3.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#SQL_Dialects" timestamp="1588127099957">
@@ -362,46 +350,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589628634570" />
-    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1589866296876">
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1590409555667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589866296876" />
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590409555667" />
     <state x="715" y="275" key="FileChooserDialogImpl" timestamp="1587017897543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587017897543" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1590409402456">
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1591489351910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1590409402456">
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591489351910" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1591489351909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1590409402456">
+    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591489351909" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1591489351909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1590409402456">
+    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591489351909" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1591489351910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
-    <state width="1877" height="263" key="GridCell.Tab.1.bottom" timestamp="1590409402456">
+    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591489351910" />
+    <state width="1877" height="292" key="GridCell.Tab.1.bottom" timestamp="1591489351910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
-    <state width="1877" height="263" key="GridCell.Tab.1.center" timestamp="1590409402456">
+    <state width="1877" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591489351910" />
+    <state width="1877" height="292" key="GridCell.Tab.1.center" timestamp="1591489351910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
-    <state width="1877" height="263" key="GridCell.Tab.1.left" timestamp="1590409402456">
+    <state width="1877" height="292" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591489351910" />
+    <state width="1877" height="292" key="GridCell.Tab.1.left" timestamp="1591489351910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
-    <state width="1877" height="263" key="GridCell.Tab.1.right" timestamp="1590409402456">
+    <state width="1877" height="292" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591489351910" />
+    <state width="1877" height="292" key="GridCell.Tab.1.right" timestamp="1591489351910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590409402456" />
+    <state width="1877" height="292" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591489351910" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1583140321703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -422,14 +410,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="504" y="157" width="1268" height="715" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584262051279" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589864200786">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590409566078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589864200786" />
-    <state x="615" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590034177352">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590409566078" />
+    <state x="615" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591592199852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="615" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590034177352" />
+    <state x="615" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591592199852" />
     <state x="731" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583412756800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -446,10 +434,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589522444159" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589521982901">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591169542980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589521982901" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591169542980" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
